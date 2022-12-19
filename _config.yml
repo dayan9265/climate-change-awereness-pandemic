@@ -1,7 +1,10 @@
-# theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
+# theme: ockham
+
+# remote_theme: vfvong/jekyll-theme-tao
+
 plugins:
   - jekyll-remote-theme
-remote_theme: zivong/ockham
 title: Are we facing a climate change awareness pandemic ?
 description: A template website for ADA
 show_downloads: True
