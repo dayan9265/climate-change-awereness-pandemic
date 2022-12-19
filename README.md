@@ -1,9 +1,118 @@
-# ADA Template Website
-## Usage
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
-3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
-4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
-**Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
-5. Add your new `.md` files to the site by editing the `_config.yml` file in your forked repository. Under `navigation:` add a new pair of `- title:` and `url:`, and fill their value with your page name and `.md` file name. Remember to remove the `- title:` and `url:` pair for the example page.
-6. Go back to "Settings" -> "Pages" to find your website link.
+# Are we facing a climate change awareness pandemic ?
+
+## As expected, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time dramatically deceased to around ~30% compared to the baseline. Already though, we see quite some discrepancy between countries.
+
+As expected, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time dramatically deceased to around ~30% compared to the baseline. Already though, we see quite some discrepancy between countries.
+
+![mobility_evolution_continent](assets/img/mobility_evolution_continent.png)
+
+Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
+
+![mean_transit_europe](assets/img/mean_transit_europe.png)
+
+Before the pandemic and lockdown hit, Fridays and Saturdays were consistently more active than the rest of the days. However, we can see one of the first effect of the pandemic, once restriction hit, not only did mobility drastically decrease, but also the weekly pattern was lost. 
+
+> What effect did this have on the population ?
+
+> Could it be that it questioned society on its relationship to mobility and its impact on society?
+
+In fact, the impact on air population was immediately visible and revealed our impact on the air quality.
+
+`graph_air`
+
+##  Is the mobility evolution correlated with a higher number of overall Wikipedia searches?
+
+##  Globally, did interest in ecology change during the covid pandemic?
+
+More than our interest in transportation
+![wikipedia_climate_change_nbr_view](assets/img/wikipedia_climate_change_nbr_view.png)
+
+## How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
+
+However, we don’t have a metric (yet!) to assess this. Our idea is thus to leverage on the Mobility dataset, assuming that restriction to workplaces and recreational area and increased access to home would be indicative of a more restrictive lockdown, we can compute an impact metric for each country.
+For example how can we distinguish quantitatively between a country like Italy where increase in residential area was strong and access to all other areas heavily restricted (by up to ~-90%), and a country like Sweden (a country with notoriously nonrestrictive measures), Where in fact there was a slight decrease in Workplace occupation and a nearly constant residential occupation.
+
+![mobility_change_italy](assets/img/mobility_change_italy.png) | ![mobility_change_sweden](assets/img/mobility_change_sweden.png)
+
+In order to have a quantitative metric, we came up with a ‘lockdown impact factor’, which combines the different types of mobility restriction. 
+
+This metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
+
+![smoothed_lockdown_factor_europe](assets/img/smoothed_lockdown_factor_europe.png)
+
+This metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
+
+`tableau à faire`
+
+Though only observational, this is in agreement with the general public’s opinion of the strictness of different countries (nordic countries such as Norway and Denmark) had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). We also can see the trend in United Kingdom, where the ban was not really lifted as quickly as other countries. 
+Indeed, the mean number of pageviews on the article ‘Climate change’ (or the one corresponding in the countries’ language) had the following evolution. The average is taken within the time specified as ‘Lockdown’ and ‘Normalcy’ in the provided data for the ‘before’ point, and on the same number of days before Lockdown. The time period were adapted for each country.
+
+`nouvelle image`
+
+Taken together, we can hypothesize that the country’s level of lockdown restrictiveness could have some impact on the interest level shift. Indeed France was in the most restrictive countries (according to the impact factor) and it has the biggest shit, whereas Nordic countries such as Norway and Danemark which had lower impact factor have a more stable evolution in the page consultation average.
+
+##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
+
+As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it is important to dig a bit deeper into this, and investigate the research behavior regarding this topic.
+By splitting the search further and looking in details at the article views contained within the Wikipedia category ‘Climate change’, we see that the decrease in topic search is not uniform:
+With 10 :
+
+`3 images bulles `
+
+Though the main topic always remains ‘Climate change’, and the top10 topics overall remains the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on ‘Climate change’, with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches declines, it does not appear to be uniformly decreasing. Indeed, there is a homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trends fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, ‘Transition town’ emerges in the top10 at the expense of ‘Global warming hiatus’.
+
+With 20:
+
+`3 images bulles`
+
+We can observe a global shift in the attention pattern, but to find trends in the topic shift attention, we need to look at the differential expression for each of the top 20 subjects related to climate change
+
+![pageview_topic_change](assets/img/pageview_topic_change.png)
+
+Immediately, one can see a really interesting pattern in the subjects that caught the public attention, ‘Climate crisis’, ‘Climate emergency declaration’, and ‘Global dimming’ are all articles with the most ‘catastrophic’ wording.
+Though the global topic, and the global number of views for the topic ‘Climate change’ diminished during this period, articles with themes related to the urgency of the situation, gained in popularity!
+There is also a ‘summer’ effect, where all subject related to Climate change, diminished in popularity compared to the lockdown period.
+
+What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’
+
+![pageview_topic_change2](assets/img/pageview_topic_change2.png)
+
+> as a comparison point, this is the data for the same time period but the year previous covid (2019).
+
+We see that topics also fluctuate between time period but in this case, the overall topic ‘Climate change’ is quite stable and there is no clear common themes between the most differentially researched topics. Moreover, the topics linked to the ‘urgency’ are not even in the top20 researched topics (see ‘Climate crisis’ and ‘Climate emergency declaration’)
+
+
+These results were found for the English Wikipedia category, however, though global, the pandemic was handled very differently within countries. 
+Based on the previous finding, we could assume that the shifting pattern of interest might be more or less pronounced based on the strictness of the Lockdown.
+
+## Test
+
+<label for="country">Choose a country to display info:</label>
+<select name="country" id="country">
+    <optgroup label="Europe">
+      <option value="Italy">Italy</option>
+      <option value="Sweden">Sweden</option>
+    </optgroup>
+    <optgroup label="Other">
+      <option value="USA">USA</option>
+    </optgroup>
+  </select>
+
+  <img id="selected-image" src="assets/img/mobility_change_italy.png">
+
+  <script>
+    // Get the dropdown menu and image element
+    var dropdown = document.getElementById("country");
+    var image = document.getElementById("selected-image");
+
+    // Update the image when the dropdown value changes
+    dropdown.addEventListener("change", function() {
+        if (this.value == "Italy"){
+            image.src = "assets/img/mobility_change_italy.png";
+        } else if (this.value == "Sweden"){
+            image.src = "assets/img/mobility_change_sweden.png";
+        } else {
+            image.src= "assets/img/favicon.png";
+        }
+    });
+  </script>
