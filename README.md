@@ -4,11 +4,11 @@
 
 As expected, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time dramatically deceased to around ~30% compared to the baseline. Already though, we see quite some discrepancy between countries.
 
-![mobility_evolution_continent](assets/img/mobility_evolution_continent.png)
+![mobility_evolution_continent](assets/img/mobility_evolution_continent.png){: .center}
 
 Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
 
-![mean_transit_europe](assets/img/mean_transit_europe.png)
+![mean_transit_europe](assets/img/mean_transit_europe.png){: .center}
 
 Before the pandemic and lockdown hit, Fridays and Saturdays were consistently more active than the rest of the days. However, we can see one of the first effect of the pandemic, once restriction hit, not only did mobility drastically decrease, but also the weekly pattern was lost. 
 
@@ -25,7 +25,7 @@ In fact, the impact on air population was immediately visible and revealed our i
 ##  Globally, did interest in ecology change during the covid pandemic?
 
 More than our interest in transportation
-![wikipedia_climate_change_nbr_view](assets/img/wikipedia_climate_change_nbr_view.png)
+![wikipedia_climate_change_nbr_view](assets/img/wikipedia_climate_change_nbr_view.png){: .center}
 
 ## How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
 
@@ -38,11 +38,20 @@ In order to have a quantitative metric, we came up with a ‘lockdown impact fac
 
 This metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
 
-![smoothed_lockdown_factor_europe](assets/img/smoothed_lockdown_factor_europe.png)
+![smoothed_lockdown_factor_europe](assets/img/smoothed_lockdown_factor_europe.png){: .center}
 
 This metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
 
-`tableau à faire`
+| Access area          | Restrictiveness |
+|----------------------|----------------|
+| Transit stations     | -              |
+| Workplaces           | -              |
+| Retail and recreation| -              |
+| Residential area     | +              |
+| Parks                | -              |
+
+Note that the `+` and `-` symbols indicate whether increased access in a particular area indicates a more or less restrictive lockdown, respectively.
+
 
 Though only observational, this is in agreement with the general public’s opinion of the strictness of different countries (nordic countries such as Norway and Denmark) had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). We also can see the trend in United Kingdom, where the ban was not really lifted as quickly as other countries. 
 Indeed, the mean number of pageviews on the article ‘Climate change’ (or the one corresponding in the countries’ language) had the following evolution. The average is taken within the time specified as ‘Lockdown’ and ‘Normalcy’ in the provided data for the ‘before’ point, and on the same number of days before Lockdown. The time period were adapted for each country.
@@ -67,7 +76,7 @@ With 20:
 
 We can observe a global shift in the attention pattern, but to find trends in the topic shift attention, we need to look at the differential expression for each of the top 20 subjects related to climate change
 
-![pageview_topic_change](assets/img/pageview_topic_change.png)
+![pageview_topic_change](assets/img/pageview_topic_change.png){: .center}
 
 Immediately, one can see a really interesting pattern in the subjects that caught the public attention, ‘Climate crisis’, ‘Climate emergency declaration’, and ‘Global dimming’ are all articles with the most ‘catastrophic’ wording.
 Though the global topic, and the global number of views for the topic ‘Climate change’ diminished during this period, articles with themes related to the urgency of the situation, gained in popularity!
@@ -75,7 +84,7 @@ There is also a ‘summer’ effect, where all subject related to Climate change
 
 What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’
 
-![pageview_topic_change2](assets/img/pageview_topic_change2.png)
+![pageview_topic_change2](assets/img/pageview_topic_change2.png){: .center}
 
 > as a comparison point, this is the data for the same time period but the year previous covid (2019).
 
