@@ -1,6 +1,5 @@
----
-layout: default
----
+
+--- layout: default ---
 
 This project was done by the group brADAfromanADAmADA in the context of the course [CS-401 Applied Data Analysis](https://dlab.epfl.ch/teaching/fall2022/cs401/). The repository used to create the graphs and the data can be found [here](https://github.com/epfl-ada/ada-2022-project-bradafromanadamada). The team members are:
 
