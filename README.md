@@ -73,6 +73,33 @@ With 10 :
 ![topic_bubble_before](assets/img/new_img/topic_bubble_before.png) | ![topic_bubble_after](assets/img/new_img/topic_bubble_after.png) | ![topic_bubble_during](assets/img/new_img/topic_bubble_during.png)
 
 
+Test with interactive for bubbles: 
+<label for="period">Choose a period to display info:</label>
+<select name="period" id="period">
+    <option value="Before">Before</option>
+    <option value="During">During</option>
+    <option value="After">During</option>
+  </select>
+
+  <img id="selected-image" src="assets/img/new_img/topic_bubble_after.png">
+
+  <script>
+    // Get the dropdown menu and image element
+    var dropdown = document.getElementById("period");
+    var image = document.getElementById("selected-image");
+
+    // Update the image when the dropdown value changes
+    dropdown.addEventListener("change", function() {
+        if (this.value == "Before"){
+            image.src = "assets/img/new_img/new_img/topic_bubble_before.png";
+        } else if (this.value == "During"){
+            image.src = "assets/img/new_img/new_img/topic_bubble_during.png";
+        } else if (this.value == "After"){
+            image.src = "assets/img/new_img/new_img/topic_bubble_after.png";
+        }
+    });
+  </script>
+
 Though the main topic always remains ‘Climate change’, and the top10 topics overall remains the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on ‘Climate change’, with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches declines, it does not appear to be uniformly decreasing. Indeed, there is a homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trends fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, ‘Transition town’ emerges in the top10 at the expense of ‘Global warming hiatus’.
 
 With 20:
