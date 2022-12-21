@@ -9,8 +9,8 @@ plugins:
 
     #remote_theme: vfvong/jekyll-theme-tao
 
-title: Are we facing a climate change awareness pandemic ?
-description: A template website for ADA
+title: [Are we facing a climate change awareness pandemic ?]
+description: [A template website for ADA]
 show_downloads: True
 navigation:
   - title: Home
