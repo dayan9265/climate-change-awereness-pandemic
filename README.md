@@ -1,6 +1,5 @@
-# How did the COVID-19 pandemic impact our interest in the climate crisis?
-
-## As expected, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time dramatically deceased to around ~30% compared to the baseline. Already though, we see quite some discrepancy between countries.
+# Are we facing a climate awareness pandemic?
+## How did the COVID-19 pandemic impact our interest in the climate crisis?
 
 As expected, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time dramatically deceased to around ~30% compared to the baseline. Already though, we see quite some discrepancy between countries.
 
