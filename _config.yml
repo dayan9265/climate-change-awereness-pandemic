@@ -1,6 +1,7 @@
 # theme: cayman
 # theme: ockham
-remote_theme: pages-themes/cayman@v0.2.0
+theme: jekyll-theme-cayman
+#remote_theme: pages-themes/cayman@v0.2.0
 
 #theme: architect
 plugins:
