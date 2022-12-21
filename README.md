@@ -70,7 +70,7 @@ By splitting the search further and looking in details at the article views cont
 With 10 :
 
 
-![topic_bubble_before](assets/img/new_img/topic_bubble_before.png) | ![topic_bubble_after](assets/img/new_img/topic_bubble_after.png) | ![topic_bubble_during](assets/img/new_img/topic_bubble_during.png)
+![topic_bubble_before](assets/img/new_img/topic_bubble_before.png) | ![topic_bubble_during](assets/img/new_img/topic_bubble_during.png) | ![topic_bubble_after](assets/img/new_img/topic_bubble_after.png)
 
 
 Test with interactive for bubbles: 
@@ -91,11 +91,11 @@ Test with interactive for bubbles:
     // Update the image when the dropdown value changes
     dropdown.addEventListener("change", function() {
         if (this.value == "Before"){
-            image.src = "assets/img/new_img/new_img/topic_bubble_before.png";
+            image.src = "assets/img/new_img/topic_bubble_before.png";
         } else if (this.value == "During"){
-            image.src = "assets/img/new_img/new_img/topic_bubble_during.png";
+            image.src = "assets/img/new_img/topic_bubble_during.png";
         } else if (this.value == "After"){
-            image.src = "assets/img/new_img/new_img/topic_bubble_after.png";
+            image.src = "assets/img/new_img/topic_bubble_after.png";
         }
     });
   </script>
