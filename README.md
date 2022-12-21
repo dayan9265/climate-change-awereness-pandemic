@@ -78,7 +78,7 @@ Test with interactive for bubbles:
 <select name="period" id="period">
     <option value="Before">Before</option>
     <option value="During">During</option>
-    <option value="After">During</option>
+    <option value="After">After</option>
   </select>
 
   <img id="selected-image" src="assets/img/new_img/topic_bubble_after.png">
