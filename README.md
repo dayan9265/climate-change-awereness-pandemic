@@ -1,3 +1,5 @@
+--- layout: default ---
+
 # Are we facing a climate awareness pandemic?
 ## How did the COVID-19 pandemic impact our interest in the climate crisis?
 
