@@ -1,14 +1,14 @@
-# Are we facing a climate change awareness pandemic ?
+# How did the COVID-19 pandemic impact our interest in the climate crisis?
 
 ## As expected, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time dramatically deceased to around ~30% compared to the baseline. Already though, we see quite some discrepancy between countries.
 
 As expected, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time dramatically deceased to around ~30% compared to the baseline. Already though, we see quite some discrepancy between countries.
 
-![mobility_evolution_continent](assets/img/mobility_evolution_continent.png){: .center}
+![mobility_evolution_continent](assets/img/mobility_evolution_continent.png)
 
 Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
 
-![mean_transit_europe](assets/img/mean_transit_europe.png){: .center}
+![mean_transit_europe](assets/img/mean_transit_europe.png)
 
 Before the pandemic and lockdown hit, Fridays and Saturdays were consistently more active than the rest of the days. However, we can see one of the first effect of the pandemic, once restriction hit, not only did mobility drastically decrease, but also the weekly pattern was lost. 
 
@@ -16,7 +16,9 @@ Before the pandemic and lockdown hit, Fridays and Saturdays were consistently mo
 
 > Could it be that it questioned society on its relationship to mobility and its impact on society?
 
-In fact, the impact on air population was immediately visible and revealed our impact on the air quality.
+In fact, the impact on air population was immediately visible and [revealed our impact on the air quality](https://www.pnas.org/doi/10.1073/pnas.2006853117) (Venter,Aunan,Chowdhury, Lelieved 2020).
+
+Moreover, as shown in ‘Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis’, there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic.
 
 `graph_air`
 
@@ -56,9 +58,11 @@ Note that the `+` and `-` symbols indicate whether increased access in a particu
 Though only observational, this is in agreement with the general public’s opinion of the strictness of different countries (nordic countries such as Norway and Denmark) had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). We also can see the trend in United Kingdom, where the ban was not really lifted as quickly as other countries. 
 Indeed, the mean number of pageviews on the article ‘Climate change’ (or the one corresponding in the countries’ language) had the following evolution. The average is taken within the time specified as ‘Lockdown’ and ‘Normalcy’ in the provided data for the ‘before’ point, and on the same number of days before Lockdown. The time period were adapted for each country.
 
-`nouvelle image`
+![impact_time_home_climate_iterest](assets/img/impact_time_home_climate_iterest.png)
 
-Taken together, we can hypothesize that the country’s level of lockdown restrictiveness could have some impact on the interest level shift. Indeed France was in the most restrictive countries (according to the impact factor) and it has the biggest shit, whereas Nordic countries such as Norway and Danemark which had lower impact factor have a more stable evolution in the page consultation average.
+Overall, the number of pageviews in the Climate Change article decreased during the Lockdown time, even when taking into account the relative change in overall pageviews. This is quite surprising when considering that the overall trend was an increased in searches! 
+
+Taken together, we can hypothesize that the country’s level of lockdown restrictiveness could have some impact on the interest level shift, but once. Indeed France was in the most restrictive countries (according to the impact factor) and it has the biggest shit, whereas Nordic countries such as Norway and Danemark which had lower impact factor have a more stable evolution in the page consultation average.
 
 ##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
 
