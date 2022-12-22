@@ -152,9 +152,6 @@ There is also a ‘summer’ effect, where all subject related to Climate change
 
 What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’
 
-![pageview_topic_change2](assets/img/pageview_topic_change2.png){: .center}
-
-> as a comparison point, this is the data for the same time period but the year previous covid (2019).
 > ! needs to be done !
 
 We see that topics also fluctuate between time period but in this case, the overall topic ‘Climate change’ is quite stable and there is no clear common themes between the most differentially researched topics. Moreover, the topics linked to the ‘urgency’ are not even in the top20 researched topics (see ‘Climate crisis’ and ‘Climate emergency declaration’)
