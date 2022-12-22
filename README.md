@@ -20,7 +20,7 @@ With this kind of beneficial changes on the planet, could it be that the covid-c
 
 As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic. This is confirmed by the following graphs that show an global increased number of Wikipedia searches correlated with the time spent at home.
 
-![wiki_searches_in_function_of_time_at_home](assets/img/new_img/wikipedia_searches_in_function_of_time_at_home.png){: .center}
+![wiki_searches_in_function_of_time_at_home](assets/img/new_img/wikipedia_searches_in_function_of_time_at_home.png){ width="800" height="600" style="display: block; margin: 0 auto" }
 
 We will now focus our research on the particular interest of people towards ecology, and try to answer following question:
 
