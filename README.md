@@ -112,8 +112,8 @@ Overall, the number of pageviews in the Climate Change article decreased during 
 As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the research behavior regarding this topic.
 By splitting the search further and looking in details at the article views contained within the Wikipedia category ‘Climate change’, we see that the decrease in topic search is not uniform:
 
-<label for="period">Choose a period to display info:</label>
-<select name="period" id="period">
+<label for="period2">Choose a period to display info:</label>
+<select name="period2" id="period2">
     <option value="Before">Before</option>
     <option value="During">During</option>
     <option value="After">After</option>
@@ -123,7 +123,7 @@ By splitting the search further and looking in details at the article views cont
 
   <script>
     // Get the dropdown menu and image element
-    var dropdown = document.getElementById("period");
+    var dropdown = document.getElementById("period2");
     var image = document.getElementById("selected-image2");
 
     // Update the image when the dropdown value changes
