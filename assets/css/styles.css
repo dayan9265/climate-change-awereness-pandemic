@@ -174,9 +174,10 @@ header ul a strong {
 }
 
 section {
-  width:750px;
+  /* width:750px;
   float:right;
-  padding-bottom:50px;
+  padding-bottom:50px; */
+  margin-left: 0;
 }
 
 small {
@@ -197,6 +198,18 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
+/* Hide the sidebar by default */
+.sidebar .sidebar-container {
+  display: none;
+}
+
+/* Show the sidebar when the .sidebar class is added to the wrapper element */
+.sidebar.sidebar .sidebar-container {
+  display: block;
+}
+
+
 
 @media print, screen and (max-width: 960px) {
 

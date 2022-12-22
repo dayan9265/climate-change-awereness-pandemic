@@ -15,3 +15,8 @@ function gestureStart() {
     }
   }
 }
+
+document.getElementById('toggle-sidebar-btn').addEventListener('click', function() {
+  document.querySelector('.wrapper').classList.toggle('sidebar');
+});
+

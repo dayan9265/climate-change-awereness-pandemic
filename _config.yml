@@ -1,17 +1,19 @@
-# theme: cayman
-# theme: ockham
-theme: jekyll-theme-cayman
-#remote_theme: pages-themes/cayman@v0.2.0
-
-#theme: architect
 plugins:
   - jekyll-remote-theme
 
-    #remote_theme: vfvong/jekyll-theme-tao
+# remote_theme: daviddarnes/alembic@main
 
-title: Are we facing a climate change awareness pandemic ?
-description: A template website for ADA
-show_downloads: True
+theme: jekyll-theme-architect
+
+
+title: "Are we facing a climate change awareness pandemic ?"
+description: "A template website for ADA"
+
+# Site settings
+
+# hide left sidebar
+sidebar: false
+show_downloads: False
 navigation:
   - title: Home
     url: /
