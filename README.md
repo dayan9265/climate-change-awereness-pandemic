@@ -187,13 +187,13 @@ Based on the previous finding, we could assume that the shifting pattern of inte
             image3.src = "assets/img/new_img/france_rel_diff.png";
         } else if (this.value == "Italy"){
             image3.src = "assets/img/new_img/italy_rel_diff.png";
-          else if (this.value == "Germany"){
+        } else if (this.value == "Germany"){
             image3.src = "assets/img/new_img/germany_rel_diff.png";
-          else if (this.value == "Netherlands"){
+        } else if (this.value == "Netherlands"){
             image3.src = "assets/img/new_img/netherlands_rel_diff.png";
-          else if (this.value == "Denmark"){
+        } else if (this.value == "Denmark"){
             image3.src = "assets/img/new_img/denmark_rel_diff.png";
-          else if (this.value == "Sweden"){
+        } else if (this.value == "Sweden"){
             image3.src = "assets/img/new_img/sweden_rel_diff.png";
         } else {
             image3.src= "assets/img/norway_rel_diff.png";
