@@ -14,8 +14,31 @@ Based on **Wikipedia** article page views, we will aim at discerning the effect 
 ## How did the covid crisis impact people's lifestyle, mobility and localization ?
 Indeed, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time, reported from Apple mobile phones, dramatically decreased to around ~30% compared to the baseline.
 
-![mobility_evolution_continent](assets/img/new_img/mobility_europe.png)
+<label for="mobility">Choose a type of mobility to display info:</label>
+<select name="mobility" id="mobility">
+    <option value="Driving">Driving</option>
+    <option value="Transit">Transit</option>
+    <option value="Walking">Walking</option>
+  </select>
 
+  <img id="selected-image" src="assets/img/new_img/mobility_europe_driving.png">
+
+  <script>
+    // Get the dropdown menu and image element
+    var dropdown = document.getElementById("mobility");
+    var image = document.getElementById("selected-image");
+
+    // Update the image when the dropdown value changes
+    dropdown.addEventListener("change", function() {
+        if (this.value == "Driving"){
+            image.src = "assets/img/new_img/mobility_europe_driving.png";
+        } else if (this.value == "Transit"){
+            image.src = "assets/img/new_img/mobility_europe_transit.png";
+        } else if (this.value == "Walking"){
+            image.src = "assets/img/new_img/mobility_europe_walking.png";
+        }
+    });
+    
 Already though, we see quite some discrepancy between countries, resulting from the different policies in place in the countries.
 
 Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
@@ -88,7 +111,6 @@ Overall, the number of pageviews in the Climate Change article decreased during 
 As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the research behavior regarding this topic.
 By splitting the search further and looking in details at the article views contained within the Wikipedia category ‘Climate change’, we see that the decrease in topic search is not uniform:
 
-Test with interactive for bubbles: 
 <label for="period">Choose a period to display info:</label>
 <select name="period" id="period">
     <option value="Before">Before</option>
