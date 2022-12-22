@@ -201,7 +201,7 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     });
   </script>
   
-  <img id="selected-image2" src="assets/img/new_img/europe.png">
+  <img id="selected-image2" src="assets/img/new_img/europe words.png">
     
 ## Conclusion
  ---
