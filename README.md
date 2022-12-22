@@ -163,11 +163,11 @@ Based on the previous finding, we could assume that the shifting pattern of inte
 <label for="country">Choose a country to display info:</label>
 <select name="country" id="country">
     <optgroup label="Europe">
-      <option value="Denemark">Danemark</option>
+      <option value="Denmark">Danemark</option>
       <option value="France">France</option>
       <option value="Germany">Germany</option>
       <option value="Italy">Italy</option>
-      <option value="Netherland">Netherland</option>
+      <option value="Netherlands">Netherland</option>
       <option value="Norway">Norway</option>
       <option value="Sweden">Sweden</option>
     </optgroup>
