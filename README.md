@@ -112,8 +112,8 @@ Overall, the number of pageviews in the Climate Change article decreased during 
 As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the research behavior regarding this topic.
 By splitting the search further and looking in details at the article views contained within the Wikipedia category ‘Climate change’, we see that the decrease in topic search is not uniform:
 
-<label for="period2">Choose a period to display info:</label>
-<select name="period2" id="period2">
+<label for="period">Choose a period to display info:</label>
+<select name="period" id="period">
     <option value="Before">Before</option>
     <option value="During">During</option>
     <option value="After">After</option>
@@ -123,17 +123,17 @@ By splitting the search further and looking in details at the article views cont
 
   <script>
     // Get the dropdown menu and image element
-    var dropdown = document.getElementById("period2");
-    var image = document.getElementById("selected-image2");
+    var dropdown2 = document.getElementById("period");
+    var image2 = document.getElementById("selected-image2");
 
     // Update the image when the dropdown value changes
-    dropdown.addEventListener("change", function() {
+    dropdown2.addEventListener("change", function() {
         if (this.value == "Before"){
-            image.src = "assets/img/new_img/topic_bubble_before.png";
+            image2.src = "assets/img/new_img/topic_bubble_before.png";
         } else if (this.value == "During"){
-            image.src = "assets/img/new_img/topic_bubble_during.png";
+            image2.src = "assets/img/new_img/topic_bubble_during.png";
         } else if (this.value == "After"){
-            image.src = "assets/img/new_img/topic_bubble_after.png";
+            image2.src = "assets/img/new_img/topic_bubble_after.png";
         }
     });
   </script>
@@ -181,18 +181,18 @@ Based on the previous finding, we could assume that the shifting pattern of inte
 
   <script>
     // Get the dropdown menu and image element
-    var dropdown2 = document.getElementById("country");
-    var image2 = document.getElementById("selected-image3");
+    var dropdown3 = document.getElementById("country");
+    var image3 = document.getElementById("selected-image3");
 
     // Update the image when the dropdown value changes
-    dropdown2.addEventListener("change", function() {
+    dropdown3.addEventListener("change", function() {
         console.log(this.value);
         if (this.value == "Italy"){
-            image2.src = "assets/img/new_img/mobility_change_italy.png";
+            image3.src = "assets/img/new_img/mobility_change_italy.png";
         } else if (this.value == "Sweden"){
-            image2.src = "assets/img/new_img/mobility_change_sweden.png";
+            image3.src = "assets/img/new_img/mobility_change_sweden.png";
         } else {
-            image2.src= "assets/img/favicon.png";
+            image3.src= "assets/img/favicon.png";
         }
     });
   </script>
