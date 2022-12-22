@@ -11,18 +11,24 @@
   </head>
 
   <body>
-    <button id="toggle-sidebar-btn">Toggle Sidebar</button>
+    <!-- <button id="toggle-sidebar-btn">Toggle Sidebar</button> -->
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>    
     <div class="wrapper {% if site.sidebar %}sidebar{% endif %}">
       <section>
 
       {{ content }}
 
       </section>
-      <footer>
+      <!-- <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-      </footer>
+      </footer> -->
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <script>
