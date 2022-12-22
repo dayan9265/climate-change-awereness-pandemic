@@ -2,19 +2,25 @@
 # Are we facing a climate awareness pandemic?
 ## How did the COVID-19 pandemic impact our interest in the climate crisis?
 
-As expected, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time dramatically deceased to around ~30% compared to the baseline. Already though, we see quite some discrepancy between countries.
+![Air quality europe](assets/img/new_img/air_quality_europe.gif)
+
+Source : [Europeen Space Agency](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Air_pollution_remains_low_as_Europeans_stay_at_home)
+
+In the beginning of the year 2020, the World suddenly had to stop as the spread of the SARS-CoV-2 became a too serious threat. This quite directly reflected in the overall air quality and [revealed our impact on the air quality](https://www.pnas.org/doi/10.1073/pnas.2006853117) (Venter, Aunan, Chowdhury, Lelieved 2020).
+As poeple spent increasing time at home and lost their bearings, it gave them time to reflect on their usual lifestyle and consumptions habit, which as it was now made visible, had a great impact on the global air quality.
+
+## How did the covid crisis impact people's lifestyle, mobility and localization ?
+Indeed, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time, reported from Apple mobile phones, dramatically decreased to around ~30% compared to the baseline.
 
 ![mobility_evolution_continent](assets/img/new_img/mobility_europe.png)
+
+Already though, we see quite some discrepancy between countries, resulting from the different policies in place in the countries.
 
 Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
 
 ![mean_transit_europe](assets/img/new_img/weekly_mobility_pattern.png)
 
-Before the pandemic and lockdown hit, Fridays and Saturdays were consistently more active than the rest of the days. However, we can see one of the first effect of the pandemic, once restriction hit, not only did mobility drastically decrease, but also the weekly pattern was lost. 
-
-This shows that the covid pandemic not only affected people's mobility, but also their behaviour.
-
-In fact, the impact on air population was immediately visible and [revealed our impact on the air quality](https://www.pnas.org/doi/10.1073/pnas.2006853117) (Venter,Aunan,Chowdhury, Lelieved 2020).
+Before the pandemic and lockdown hit, Fridays and Saturdays were consistently more active than the rest of the days. However, one of the first visible effect of the pandemic, once restriction hit, is not only that the mobility drastically decreased, but also that this weekly pattern disappeared. This suggests that the covid pandemic not only affected people's mobility, but also their behaviour.
 
 With this kind of beneficial changes on the planet, could it be that the covid-crisis managed to question society on its relationship to mobility, and furthermore on the impact of the society on the ecosystem? Did people gain interest in the ecological cause?
 
@@ -27,19 +33,19 @@ As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](ht
         height="600" 
         style="display: block; margin: 0 auto" />
 
-We will now focus our research on the particular interest of people towards ecology, and try to answer following question:
+We will now dig in deeper in the subject, and focus on the interest of people towards ecology specifically, and try to answer following question:
 
-### Globally, did interest in ecology change during the covid pandemic?
+## Overall, how did interest in ecology change during the covid pandemic?
 
 If we take the general theme of climate change (which is now strongly established in our modern society as a major ecological problem) and look at the number of Wikipedia searches related to this thematic, we should be able to depict people's interest towards ecology.
 
-![wikipedia_climate_change_nbr_view](assets/img/wikipedia_climate_change_nbr_view.png){: .center}
+![wikipedia_climate_change_nbr_view](assets/img/new_img/cummulative_views_climate_change.png){: .center}
 
 As we can see, there is a deep fall in interest for climate change related topics during the time of the covid pandemic. 
 
 ---TO BE CONTINUED
 
-### How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
+## How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
 
 However, we don’t have a metric (yet!) to assess this. Our idea is thus to leverage on the Mobility dataset, assuming that restriction to workplaces and recreational area and increased access to home would be indicative of a more restrictive lockdown, we can compute an impact metric for each country.
 For example how can we distinguish quantitatively between a country like Italy where increase in residential area was strong and access to all other areas heavily restricted (by up to ~-90%), and a country like Sweden (a country with notoriously nonrestrictive measures), Where in fact there was a slight decrease in Workplace occupation and a nearly constant residential occupation.
