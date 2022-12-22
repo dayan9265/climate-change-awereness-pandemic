@@ -1,3 +1,4 @@
+
 # Are we facing a climate awareness pandemic?
 ## How did the COVID-19 pandemic impact our interest in the climate crisis?
 
@@ -11,22 +12,27 @@ Now, these results are smoothed on a weekly basis, and in fact all mobility beha
 
 Before the pandemic and lockdown hit, Fridays and Saturdays were consistently more active than the rest of the days. However, we can see one of the first effect of the pandemic, once restriction hit, not only did mobility drastically decrease, but also the weekly pattern was lost. 
 
-> What effect did this have on the population ?
-
-> Could it be that it questioned society on its relationship to mobility and its impact on society?
+This shows that the covid pandemic not only affected people's mobility, but also their behaviour.
 
 In fact, the impact on air population was immediately visible and [revealed our impact on the air quality](https://www.pnas.org/doi/10.1073/pnas.2006853117) (Venter,Aunan,Chowdhury, Lelieved 2020).
 
-Moreover, as shown in ‘Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis’, there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic.
+With this kind of beneficial changes on the planet, could it be that the covid-crisis managed to question society on its relationship to mobility, and furthermore on the impact of the society on the ecosystem? Did people gain interest in the ecological cause?
 
-`graph_air`
+As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic. This is confirmed by the following graphs that show an global increased number of Wikipedia searches correlated with the time spent at home.
 
-##  Is the mobility evolution correlated with a higher number of overall Wikipedia searches?
+![wiki_searches_in_function_of_time_at_home](assets/img/new_img/wikipedia_searches_in_function_of_time_at_home.png)
 
-##  Globally, did interest in ecology change during the covid pandemic?
+We will now focus our research on the particular interest of people towards ecology, and try to answer following question:
 
-More than our interest in transportation
+### Globally, did interest in ecology change during the covid pandemic?
+
+If we take the general theme of climate change (which is now strongly established in our modern society as a major ecological problem) and look at the number of Wikipedia searches related to this thematic, we should be able to depict people's interest towards ecology.
+
 ![wikipedia_climate_change_nbr_view](assets/img/wikipedia_climate_change_nbr_view.png){: .center}
+
+As we can see, there is a deep fall in interest for climate change related topics during the time of the covid pandemic. 
+
+---TO BE CONTINUED
 
 ## How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
 
