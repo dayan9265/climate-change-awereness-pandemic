@@ -119,12 +119,12 @@ By splitting the search further and looking in details at the article views cont
     <option value="After">After</option>
   </select>
 
-  <img id="selected-image" src="assets/img/new_img/topic_bubble_before.png">
+  <img id="selected-image2" src="assets/img/new_img/topic_bubble_before.png">
 
   <script>
     // Get the dropdown menu and image element
     var dropdown = document.getElementById("period");
-    var image = document.getElementById("selected-image");
+    var image = document.getElementById("selected-image2");
 
     // Update the image when the dropdown value changes
     dropdown.addEventListener("change", function() {
@@ -177,12 +177,12 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     </optgroup>
   </select>
 
-  <img id="selected-image2" src="assets/img/new_img/mobility_change_italy.png">
+  <img id="selected-image3" src="assets/img/new_img/mobility_change_italy.png">
 
   <script>
     // Get the dropdown menu and image element
     var dropdown2 = document.getElementById("country");
-    var image2 = document.getElementById("selected-image2");
+    var image2 = document.getElementById("selected-image3");
 
     // Update the image when the dropdown value changes
     dropdown2.addEventListener("change", function() {
