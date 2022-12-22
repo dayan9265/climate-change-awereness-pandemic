@@ -38,6 +38,7 @@ Indeed, the effect of the pandemic on the mobility were drastic, and starting ar
             image.src = "assets/img/new_img/mobility_europe_walking.png";
         }
     });
+    </script>
     
 Already though, we see quite some discrepancy between countries, resulting from the different policies in place in the countries.
 
