@@ -16,6 +16,6 @@ sidebar: false
 show_downloads: False
 navigation:
   - title: Home
-    url: /
+    url: ./
   - title: About
     url: about
