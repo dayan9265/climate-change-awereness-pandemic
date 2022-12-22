@@ -163,11 +163,11 @@ Based on the previous finding, we could assume that the shifting pattern of inte
 <label for="country">Choose a country to display info:</label>
 <select name="country" id="country">
     <optgroup label="Europe">
-      <option value="Denmark">Danemark</option>
+      <option value="Denmark">Denmark</option>
       <option value="France">France</option>
       <option value="Germany">Germany</option>
       <option value="Italy">Italy</option>
-      <option value="Netherlands">Netherland</option>
+      <option value="Netherlands">Netherlands</option>
       <option value="Norway">Norway</option>
       <option value="Sweden">Sweden</option>
     </optgroup>
@@ -196,7 +196,7 @@ Based on the previous finding, we could assume that the shifting pattern of inte
         } else if (this.value == "Sweden"){
             image3.src = "assets/img/new_img/sweden_rel_diff.png";
         } else {
-            image3.src= "assets/img/norway_rel_diff.png";
+            image3.src= "assets/img/new_img/norway_rel_diff.png";
         }
     });
   </script>
