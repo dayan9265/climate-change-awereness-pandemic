@@ -160,9 +160,6 @@ We see that topics also fluctuate between time period but in this case, the over
 These results were found for the English Wikipedia category, however, though global, the pandemic was handled very differently within countries. 
 Based on the previous finding, we could assume that the shifting pattern of interest might be more or less pronounced based on the strictness of the Lockdown.
 
-
-## Test
-
 <label for="country">Choose a country to display info:</label>
 <select name="country" id="country">
     <optgroup label="Europe">
@@ -204,6 +201,8 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     });
   </script>
   
+  <img id="selected-image2" src="assets/img/new_img/europe.png">
+    
 ## Conclusion
  ---
 #### Method
