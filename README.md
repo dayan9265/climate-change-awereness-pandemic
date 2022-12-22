@@ -20,7 +20,7 @@ With this kind of beneficial changes on the planet, could it be that the covid-c
 
 As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic. This is confirmed by the following graphs that show an global increased number of Wikipedia searches correlated with the time spent at home.
 
-![wiki_searches_in_function_of_time_at_home](assets/img/new_img/wikipedia_searches_in_function_of_time_at_home.png)
+![wiki_searches_in_function_of_time_at_home](assets/img/new_img/wikipedia_searches_in_function_of_time_at_home.png){: .center}
 
 We will now focus our research on the particular interest of people towards ecology, and try to answer following question:
 
@@ -34,7 +34,7 @@ As we can see, there is a deep fall in interest for climate change related topic
 
 ---TO BE CONTINUED
 
-## How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
+### How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
 
 However, we don’t have a metric (yet!) to assess this. Our idea is thus to leverage on the Mobility dataset, assuming that restriction to workplaces and recreational area and increased access to home would be indicative of a more restrictive lockdown, we can compute an impact metric for each country.
 For example how can we distinguish quantitatively between a country like Italy where increase in residential area was strong and access to all other areas heavily restricted (by up to ~-90%), and a country like Sweden (a country with notoriously nonrestrictive measures), Where in fact there was a slight decrease in Workplace occupation and a nearly constant residential occupation.
