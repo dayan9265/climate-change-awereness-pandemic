@@ -14,9 +14,14 @@
     <!-- <button id="toggle-sidebar-btn">Toggle Sidebar</button> -->
     <nav>
       {% for item in site.navigation %}
-        <a href="{{ site.baseurl }}">{{ item.title }}</a>
+        {% if item.url == '/' and page.url == '/' %}
+          <a href="#">{{ item.title }}</a>
+        {% else %}
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        {% endif %}
       {% endfor %}
     </nav>
+    
        
     <div class="wrapper {% if site.sidebar %}sidebar{% endif %}">
       <section>
