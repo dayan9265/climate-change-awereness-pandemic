@@ -166,7 +166,7 @@ Based on the previous finding, we could assume that the shifting pattern of inte
 <label for="country">Choose a country to display info:</label>
 <select name="country" id="country">
     <optgroup label="Europe">
-      <option value="Danemark">Danemark</option>
+      <option value="Denemark">Danemark</option>
       <option value="France">France</option>
       <option value="Germany">Germany</option>
       <option value="Italy">Italy</option>
@@ -186,12 +186,20 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     // Update the image when the dropdown value changes
     dropdown3.addEventListener("change", function() {
         console.log(this.value);
-        if (this.value == "Italy"){
-            image3.src = "assets/img/new_img/mobility_change_italy.png";
-        } else if (this.value == "Sweden"){
-            image3.src = "assets/img/new_img/mobility_change_sweden.png";
+        if (this.value == "France"){
+            image3.src = "assets/img/new_img/france_rel_diff.png";
+        } else if (this.value == "Italy"){
+            image3.src = "assets/img/new_img/italy_rel_diff.png";
+          else if (this.value == "Germany"){
+            image3.src = "assets/img/new_img/germany_rel_diff.png";
+          else if (this.value == "Netherlands"){
+            image3.src = "assets/img/new_img/netherlands_rel_diff.png";
+          else if (this.value == "Denmark"){
+            image3.src = "assets/img/new_img/denmark_rel_diff.png";
+          else if (this.value == "Sweden"){
+            image3.src = "assets/img/new_img/sweden_rel_diff.png";
         } else {
-            image3.src= "assets/img/favicon.png";
+            image3.src= "assets/img/norway_rel_diff.png";
         }
     });
   </script>
