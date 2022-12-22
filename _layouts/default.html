@@ -13,11 +13,11 @@
   <body>
     <!-- <button id="toggle-sidebar-btn">Toggle Sidebar</button> -->
     <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </nav>    
+      {% for item in site.navigation %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+       
     <div class="wrapper {% if site.sidebar %}sidebar{% endif %}">
       <section>
 

@@ -140,21 +140,22 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     </optgroup>
   </select>
 
-  <img id="selected-image" src="assets/img/new_img/mobility_change_italy.png">
+  <img id="selected-image2" src="assets/img/new_img/mobility_change_italy.png">
 
   <script>
     // Get the dropdown menu and image element
-    var dropdown = document.getElementById("country");
-    var image = document.getElementById("selected-image");
+    var dropdown2 = document.getElementById("country");
+    var image2 = document.getElementById("selected-image2");
 
     // Update the image when the dropdown value changes
-    dropdown.addEventListener("change", function() {
+    dropdown2.addEventListener("change", function() {
+        console.log(this.value);
         if (this.value == "Italy"){
-            image.src = "assets/img/new_img/mobility_change_italy.png";
+            image2.src = "assets/img/new_img/mobility_change_italy.png";
         } else if (this.value == "Sweden"){
-            image.src = "assets/img/new_img/mobility_change_sweden.png";
+            image2.src = "assets/img/new_img/mobility_change_sweden.png";
         } else {
-            image.src= "assets/img/favicon.png";
+            image2.src= "assets/img/favicon.png";
         }
     });
   </script>

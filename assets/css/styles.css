@@ -22,10 +22,12 @@ h1, h2, h3 {
 h1 {
   font-size:28px;
   font-weight: 500;
+  color: #008B8B;
 }
 
 h2 {
-  color:#393939;
+  /* color:#393939; */
+  color: #008B8B;
   font-weight: 500;
 }
 
@@ -213,7 +215,9 @@ nav {
   background-color: #333;
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 nav ul {
@@ -230,10 +234,32 @@ nav li {
 nav a {
   color: #fff;
   text-decoration: none;
+  display: block;
+  margin-right: 20px;
 }
 
 nav a:hover {
   color: #ccc;
+}
+
+.nav-container {
+  display: flex; /* Use flexbox layout to arrange the elements horizontally */
+  align-items: center; /* Center the elements vertically */
+  justify-content: space-between; /* Distribute the elements evenly across the container */
+}
+
+.nav-item {
+  /* Add some styling to the navigation elements */
+  color: white;
+  background-color: violet;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-item:hover {
+  /* Change the color of the elements when the mouse hovers over them */
+  background-color: #9400d3;
 }
 
 
