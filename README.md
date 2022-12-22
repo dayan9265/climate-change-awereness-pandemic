@@ -41,22 +41,21 @@ If we take the general theme of climate change (which is now strongly establishe
 
 ![wikipedia_climate_change_nbr_view](assets/img/new_img/cummulative_views_climate_change.png){: .center}
 
-As we can see, maybe surprisingly, there is a deep fall in interest for climate change related topics during the time of the covid pandemic. 
+As we can see, maybe surprisingly, there is a steep fall in interest for climate change related topics during the time of the covid pandemic. 
 
 ## How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
 
-Policies notably differed between countries, however, we don’t have a metric (yet!) to assess this. Our idea is thus to leverage on the Mobility dataset, assuming that restriction to workplaces and recreational area and increased access to home would be indicative of a more restrictive lockdown, we can compute an impact metric for each country.
-For example how can we distinguish quantitatively between a country like Italy where increase in residential area was strong and access to all other areas heavily restricted (by up to ~-90%), and a country like Sweden (a country with notoriously nonrestrictive measures), Where in fact there was a slight decrease in Workplace occupation and a nearly constant residential occupation.
+Policies notably differed between countries, however, no metric exists to assess this.
+For example how can we distinguish quantitatively between a country like Italy where increase in residential area was strong and access to all other areas heavily restricted (by up to ~-90%), and a country like Sweden (a country with notoriously nonrestrictive measures) where there was even a slight decrease in Workplace occupation and a nearly constant residential occupation?
 
 ![mobility_change_italy](assets/img/new_img/mobility_change_italy.png) | ![mobility_change_sweden](assets/img/new_img/mobility_change_sweden.png)
 
-In order to have a quantitative metric, we came up with a ‘lockdown impact factor’, which combines the different types of mobility restriction. 
+Our idea is thus to leverage on the **Mobility dataset** made available by [Google](https://www.google.com/covid19/mobility/) (shown above)to compute an 'impact' metric for each country. In order to have a quantitative metric, we came up with a ‘lockdown impact factor’, which combines the different types of mobility restriction. 
 
-This metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
-
+n this context, we assume that restriction to workplaces and recreational area and increased access to home would be indicative of a more restrictive lockdown.
 ![smoothed_lockdown_factor_europe](assets/img/new_img/smoothed_lockdown_impact.png){: .center}
 
-This metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
+The metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
 
 | Access area          | Restrictiveness |
 |----------------------|----------------|
@@ -68,19 +67,25 @@ This metric is computed based on the rationale shown in the table below, where p
 
 Note that the `+` and `-` symbols indicate whether increased access in a particular area indicates a more or less restrictive lockdown, respectively.
 
+Though only observational, this is in agreement with the general public’s opinion of the strictness of different countries. For exemple, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). We also can see the trend in United Kingdom, where the ban was not really lifted as quickly as other countries. 
 
-Though only observational, this is in agreement with the general public’s opinion of the strictness of different countries (nordic countries such as Norway and Denmark) had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). We also can see the trend in United Kingdom, where the ban was not really lifted as quickly as other countries. 
+
 Indeed, the mean number of pageviews on the article ‘Climate change’ (or the one corresponding in the countries’ language) had the following evolution. The average is taken within the time specified as ‘Lockdown’ and ‘Normalcy’ in the provided data for the ‘before’ point, and on the same number of days before Lockdown. The time period were adapted for each country.
+
+![climate_pageviews_bi](assets/img/new_img/climate_pageviews_bi.png){: .center}
+
+
+Taken together, we can hypothesize that the country’s level of lockdown restrictiveness could have some impact on the interest level shift, indeed France was in the most restrictive countries (according to the impact factor) and it has the biggest shift, whereas Nordic countries such as Norway and Danemark which had lower impact factor have a more stable evolution in the page consultation average.
+
+But once taking into account the overal change in Wikipedia views for each country, and comparing the number of views to the impact factor, the interpretation we can make differs.
 
 ![impact_time_home_climate_iterest](assets/img/new_img/impact_fact_vs_pageviews.png)
 
-Overall, the number of pageviews in the Climate Change article decreased during the Lockdown time, even when taking into account the relative change in overall pageviews. This is quite surprising when considering that the overall trend was an increased in searches! 
-
-Taken together, we can hypothesize that the country’s level of lockdown restrictiveness could have some impact on the interest level shift, but once. Indeed France was in the most restrictive countries (according to the impact factor) and it has the biggest shit, whereas Nordic countries such as Norway and Danemark which had lower impact factor have a more stable evolution in the page consultation average.
+Overall, the number of pageviews in the Climate Change article decreased during the Lockdown time, even when taking into account the relative change in overall pageviews. This is quite surprising when considering that the overall trend was an increased in searches! However this seems to be similar across countries, independantly of the lockdown strictness.
 
 ##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
 
-As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it is important to dig a bit deeper into this, and investigate the research behavior regarding this topic.
+As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the research behavior regarding this topic.
 By splitting the search further and looking in details at the article views contained within the Wikipedia category ‘Climate change’, we see that the decrease in topic search is not uniform:
 
 Test with interactive for bubbles: 
@@ -110,14 +115,16 @@ Test with interactive for bubbles:
     });
   </script>
 
-Though the main topic always remains ‘Climate change’, and the top10 topics overall remains the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on ‘Climate change’, with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches declines, it does not appear to be uniformly decreasing. Indeed, there is a homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trends fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, ‘Transition town’ emerges in the top10 at the expense of ‘Global warming hiatus’.
+Though the main topic always remains ‘Climate change’, and the top 10 topics overall remain the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on ‘Climate change’, with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches in this category declines, it does not appear to be uniformly decreasing. Indeed, there is an homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trends fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, ‘Transition town’ emerges in the top10 at the expense of ‘Global warming hiatus’.
 
-We can observe a global shift in the attention pattern, but to find trends in the topic shift attention, we need to look at the differential expression for each of the top 20 subjects related to climate change
+We can observe a global shift in the attention pattern, but to find trends in the topic shift attention, we need to look at the differential research for each of the top 20 subjects related to climate change
 
 ![pageview_topic_change](assets/img/new_img/relative_diff_topics_english.png){: .center}
 
 Immediately, one can see a really interesting pattern in the subjects that caught the public attention, ‘Climate crisis’, ‘Climate emergency declaration’, and ‘Global dimming’ are all articles with the most ‘catastrophic’ wording.
-Though the global topic, and the global number of views for the topic ‘Climate change’ diminished during this period, articles with themes related to the urgency of the situation, gained in popularity!
+
+Though the global topic, and the global number of views for the topic ‘Climate change’ diminished during this period, articles with themes related to the urgency of the situation seemed to gain in popularity!
+
 There is also a ‘summer’ effect, where all subject related to Climate change, diminished in popularity compared to the lockdown period.
 
 What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’
@@ -132,6 +139,7 @@ We see that topics also fluctuate between time period but in this case, the over
 
 These results were found for the English Wikipedia category, however, though global, the pandemic was handled very differently within countries. 
 Based on the previous finding, we could assume that the shifting pattern of interest might be more or less pronounced based on the strictness of the Lockdown.
+
 
 ## Test
 
@@ -165,6 +173,9 @@ Based on the previous finding, we could assume that the shifting pattern of inte
         }
     });
   </script>
+  
+## Conclusion
+ ---
 #### Method
 
 We focused on a list of Europeen countries with language specific enough to be able to link the mobility of their countries and the views of Wikipedia in the corresponding articles. The list of selected countries is the following :
