@@ -12,7 +12,7 @@ As people spent increasing time at home and lost their bearings, it gave them ti
 Based on **Wikipedia** article page views, we will aim at discerning the effect of the 2020 lockdown on the interest for the climate crisis. This will be done at different scales, and by analyzing the emerging lexical themes in the researched articles. We will also link this to the restriction level of the concerned countries. 
 
 ## How did the covid crisis impact people's lifestyle, mobility and localization ?
-The effect of the pandemic on the mobility were drastic. Starting around early March, the transit, driving and walking time, reported from Apple mobile phones,  drastically decreased in most countries. The changes range from only small changes in certain countries like Sweden to up to 10% of the baseline value for the countries with strictest lockdown like Italy or France.
+The effect of the pandemic on the mobility were drastic. Starting around early March, the transit, driving and walking time, reported from **Apple mobile phones**,  drastically decreased in most countries. The changes range from only small changes in certain countries like Sweden to up to 10% of the baseline value for the countries with strictest lockdown like Italy or France.
 
 <label for="mobility">Choose a type of mobility to display its evolution over time:</label>
 <select name="mobility" id="mobility">
@@ -56,7 +56,7 @@ A great data source to capture the population’s interest is the Wikipedia data
 
 ![wikipedia_total_views](assets/img/wikipedia_total_views.png)
 
-As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic.
+As also shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic.
 
 We will now dig in deeper in the subject, and focus on the interest of people towards ecology specifically, and try to answer following question:
 
@@ -156,7 +156,7 @@ To further investigate this, we took the top 30 articles that had the most diffe
  - `neutral` articles with a more neutral / scientific tone, such as ‘CO2 emissions’, ‘CO2 equivalent’
  - `positive` articles about possible solutions and about conferences and declarations, such as ‘Paris Agreement’, ‘Green New Deal’
   
-We can observe that the interest in the `negative` increased more for the countries that had a more restrictive lockdown. For the other categories no clear trend is observed.
+We can observe that the interest in the `negative` increased more for the countries that had a more restrictive lockdown, as shown through the linear regression line. For the other categories no clear trend is observed.
 
 <label for="appreciation">Choose which types of articles to see on the plot :</label>
 <select name="appreciation" id="appreciation">
