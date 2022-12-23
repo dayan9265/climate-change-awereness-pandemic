@@ -50,6 +50,8 @@ Before the pandemic and lockdown hit, Fridays and Saturdays were consistently mo
 
 With this kind of beneficial changes on the planet, could it be that the covid-crisis managed to question society on its relationship to mobility, and furthermore on the impact of the society on the ecosystem? Did people gain interest in the ecological cause?
 
+## Is the mobility evolution correlated with a higher number of overall Wikipedia searches?
+
 A great data source to capture the population's interest is the Wikipedia database. It allows to follow, in real time, the concerns and interest of a population and is easily accessible.
 
 ---> insert our plot instead 
@@ -154,6 +156,8 @@ There is also a ‘back to normalty’ effect, described here as the 'summer' pe
 
 What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’.
 
+## How to maintain awareness of the ecological questions during a world crisis?
+
 These results were found for the English Wikipedia category, however, though global, the pandemic was handled very differently within countries. 
 Based on the previous finding, we could assume that the shifting pattern of interest might be different in other countries. The following animation allows to choose each of the seven analysed european countries and see its pattern of interest change. The top 3 articles which have seen the highest increase during covid crisis, as well as the country's lockdown impact factor ranking (among the seven analysed countries), are also highlighted. 
 
@@ -238,7 +242,7 @@ Based on the wikipedia data during the Covid-19 crisis, by choosing your subject
   </script>
   
   
-## Conclusion
+
  ---
 #### Method
 
