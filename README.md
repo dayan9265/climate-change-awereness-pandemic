@@ -152,6 +152,44 @@ There is also a ‘back to normalty’ effect, described here as the 'summer' pe
 
 What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’.
 
+To further investigate this, we took the top 30 articles that had the most differential pageviews during the lockdown period and we classified them into 3 categories: `negative`, `neutral` and `positive`:
+
+ - `negative` articles with a more dramatic / pessimistic tone, such as ‘Climate crisis’, ‘Global dimming’
+ - `neutral` articles with a more neutral / scientific tone, such as ‘CO2 emissions’, ‘CO2 equivalent’
+ - `positive` articles about possible solutions and about conferences and declarations, such as ‘Paris Agreement’, ‘Green New Deal’
+  
+We can observe that the interest in the `negative` increased more for the countries that had a more restrictive lockdown. For the other categories no clear trend is observed.
+
+<label for="appreciation">Choose which types of articles to see on the plot :</label>
+<select name="appreciation" id="appreciation">
+    <option value="Negative">Negative</option>
+    <option value="Neutral">Neutral</option>
+    <option value="Positive">Positive</option>
+    <option value="All">All</option>
+  </select>
+
+  <img id="appreciation_plot" src="assets/img/pageview_topic_change_appreciation_negative.png">
+
+  <script>
+    // Get the dropdown menu and image element
+    var appreciation_dropdown = document.getElementById("appreciation");
+    var appreciation_image = document.getElementById("appreciation_plot");
+
+    // Update the image when the dropdown value changes
+    appreciation_dropdown.addEventListener("change", function() {
+        console.log(this.value);
+        if (this.value == "Negative"){
+            appreciation_image.src = "assets/img/pageview_topic_change_appreciation_negative.png";
+        } else if (this.value == "Neutral"){
+            appreciation_image.src = "assets/img/pageview_topic_change_appreciation_neutral.png";
+        } else if (this.value == "Positive"){
+            appreciation_image.src = "assets/img/pageview_topic_change_appreciation_positive.png";
+        } else if (this.value == "All"){
+            appreciation_image.src = "assets/img/pageview_topic_change_appreciation_all.png";
+        }
+    });
+  </script>
+
 ## How to maintain awareness of the ecological questions during a world crisis?
 
 These results were found for the English Wikipedia category, however, though global, the pandemic was handled very differently within countries. 
@@ -206,36 +244,6 @@ What we propose it that you pick one or more subjects from the following list, w
 <img id="selected-image2" src="assets/img/new_img/europe_articles.png">
 
 Based on the wikipedia data during the Covid-19 crisis, by choosing your subject within this list you should be able to maximize the awarness toward your article in the domain of climate change.
-
-<label for="appreciation">Choose which types of articles to see on the plot :</label>
-<select name="appreciation" id="appreciation">
-    <option value="Negative">Negative</option>
-    <option value="Neutral">Neutral</option>
-    <option value="Positive">Positive</option>
-    <option value="All">All</option>
-  </select>
-
-  <img id="appreciation_plot" src="assets/img/pageview_topic_change_appreciation_negative.png">
-
-  <script>
-    // Get the dropdown menu and image element
-    var appreciation_dropdown = document.getElementById("appreciation");
-    var appreciation_image = document.getElementById("appreciation_plot");
-
-    // Update the image when the dropdown value changes
-    appreciation_dropdown.addEventListener("change", function() {
-        console.log(this.value);
-        if (this.value == "Negative"){
-            appreciation_image.src = "assets/img/pageview_topic_change_appreciation_negative.png";
-        } else if (this.value == "Neutral"){
-            appreciation_image.src = "assets/img/pageview_topic_change_appreciation_neutral.png";
-        } else if (this.value == "Positive"){
-            appreciation_image.src = "assets/img/pageview_topic_change_appreciation_positive.png";
-        } else if (this.value == "All"){
-            appreciation_image.src = "assets/img/pageview_topic_change_appreciation_all.png";
-        }
-    });
-  </script>
   
   
 
