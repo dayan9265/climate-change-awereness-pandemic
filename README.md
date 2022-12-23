@@ -92,11 +92,13 @@ The metric is computed based on the rationale shown in the table below, where pe
 
 Note that the ``+`` and ``-`` symbols indicate whether increased access in a particular area indicates a more or less restrictive lockdown, respectively.
 
-For the upcoming analyses, we will study the cases of 7 european countries with distinct languages. This will allow us to link the wikipedia language trends to the country national events (1st case, lockdown, back to normalcy). The selected countries are: France, Italy, Germany, Denmark, Netherlands, Sweden, and Norway.
-
 Though only observational, this plot is in agreement with the general public’s opinion of the strictness of different countries. For example, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). Also, we can see the delayed trend in United Kingdom, where the ban was not really lifted as quickly as in the other countries.
 
-Now, we will look at the global evolution of the interest towards "climate change" before (baseline) and during the lockdown (lockdown). The mean number of pageviews for the selected countries is taken both for the time frame of the lockdown and the same time frame before the lockdown. The time period were adapted for each country, based on the duration of the lockdown in each country.
+
+
+For the upcoming analyses, we will study the cases of 7 european countries with distinct languages. This will allow us to link the wikipedia language trends to the country national events (1st case, lockdown, back to normalcy). The selected countries are: France, Italy, Germany, Denmark, Netherlands, Sweden, and Norway.
+
+We will look at the global evolution of the interest towards "climate change" before (baseline) and during the lockdown (lockdown). The mean number of pageviews for the selected countries is taken both for the time frame of the lockdown and the same time frame before the lockdown. The time period were adapted for each country, based on the duration of the lockdown in each country.
 
 <img src="assets/img/after_before_pageviews_climate.png" width="450" height="600" />
 
