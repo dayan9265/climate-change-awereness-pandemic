@@ -9,7 +9,7 @@ Source : [Europeen Space Agency](https://www.esa.int/Applications/Observing_the_
 In the beginning of the year 2020, the World suddenly had to stop as the spread of the SARS-CoV-2 virus became a too serious threat. This quite directly reflected in the overall air quality and [revealed the impact we have on it](https://www.pnas.org/doi/10.1073/pnas.2006853117) (Venter, Aunan, Chowdhury, Lelieved 2020).
 As people spent increasing time at home and lost their bearings, it gave them time to reflect on their usual lifestyle and consumptions habit, which as it was now made visible, had a great impact on the environment.
 
-Based on **Wikipedia** article page views, we will aim at discerning the effect of the 2020 lockdown on the interest for the climate crisis. This will be done at different scales, and by analyzing the emerging lexical themes in the researched articles. We will also link this to the restriction level of the concerned countries. For more information on how this was done, see the [Method](#method) section in the About page).
+Based on **Wikipedia** article page views, we will aim at discerning the effect of the 2020 lockdown on the interest for the climate crisis. This will be done at different scales, and by analyzing the emerging lexical themes in the researched articles. We will also link this to the restriction level of the concerned countries. For more information on how this was done, see the Method section in the About page.
 
 ## How did the covid crisis impact people's lifestyle, mobility and localization ?
 The effect of the pandemic on the mobility were drastic. Starting around early March, the transit, driving and walking time, reported from Apple mobile phones,  drastically decreased in most countries. The changes range from only small changes in certain countries like Sweden to up to 10% of the baseline value for the countries with strictest lockdown like Italy or France.
@@ -80,6 +80,8 @@ In this context, we assume that restriction to workplaces and recreational area,
 
 ![smoothed_lockdown_factor_europe](assets/img/smoothed_lockdown_impact.png){: .center}
 
+Though only observational, this plot is in agreement with the general public’s opinion of the strictness of different countries. For example, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). Also, we can see the delayed trend in United Kingdom, where the ban was not really lifted as quickly as in the other countries.
+
 The metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
 
 | Access area          | Restrictiveness |
@@ -91,8 +93,6 @@ The metric is computed based on the rationale shown in the table below, where pe
 | Parks                | -              |
 
 Note that the ``+`` and ``-`` symbols indicate whether increased access in a particular area indicates a more or less restrictive lockdown, respectively.
-
-Though only observational, this plot is in agreement with the general public’s opinion of the strictness of different countries. For example, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). Also, we can see the delayed trend in United Kingdom, where the ban was not really lifted as quickly as in the other countries.
 
 
 
