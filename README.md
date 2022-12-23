@@ -2,7 +2,7 @@
 # Are we facing a climate awareness pandemic?
 ## How did the COVID-19 pandemic impact our interest in the climate crisis?
 
-![Air quality europe](assets/img/new_img/air_quality_europe.gif)
+![Air quality europe](assets/img/air_quality_europe.gif)
 
 Source : [Europeen Space Agency](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Air_pollution_remains_low_as_Europeans_stay_at_home)
 
@@ -21,7 +21,7 @@ The effect of the pandemic on the mobility were drastic. Starting around early M
     <option value="Walking">Walking</option>
   </select>
 
-  <img id="selected-image" src="assets/img/new_img/mobility_europe_driving.png">
+  <img id="selected-image" src="assets/img/mobility_europe_driving.png">
 
   <script>
     // Get the dropdown menu and image element
@@ -31,11 +31,11 @@ The effect of the pandemic on the mobility were drastic. Starting around early M
     // Update the image when the dropdown value changes
     dropdown.addEventListener("change", function() {
         if (this.value == "Driving"){
-            image.src = "assets/img/new_img/mobility_europe_driving.png";
+            image.src = "assets/img/mobility_europe_driving.png";
         } else if (this.value == "Transit"){
-            image.src = "assets/img/new_img/mobility_europe_transit.png";
+            image.src = "assets/img/mobility_europe_transit.png";
         } else if (this.value == "Walking"){
-            image.src = "assets/img/new_img/mobility_europe_walking.png";
+            image.src = "assets/img/mobility_europe_walking.png";
         }
     });
     </script>
@@ -44,7 +44,7 @@ Already though, we can see some discrepancy between countries, resulting from th
 
 The social life cycle of people living in Europe is mainly driven by weeks. Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
 
-![mean_transit_europe](assets/img/new_img/weekly_mobility_pattern.png)
+![mean_transit_europe](assets/img/weekly_mobility_pattern.png)
 
 Before the pandemic and lockdown hit, Fridays and Saturdays were consistently more active than the rest of the days. However, one of the first visible effect of the pandemic, once restriction hit, is not only that the mobility drastically decreased, but also that this weekly pattern disappeared. This suggests that the covid pandemic not only affected people's mobility, but also their behaviour.
 
@@ -54,7 +54,7 @@ With this kind of beneficial changes on the planet, could it be that the covid-c
 
 A great data source to capture the population's interest is the Wikipedia database. It allows to follow, in real time, the concerns and interest of a population and is easily accessible.
 
-![wikipedia_total_views](assets/img/new_img/wikipedia_total_views.png)
+![wikipedia_total_views](assets/img/wikipedia_total_views.png)
 
 As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic. This is confirmed by the following graphs that show an global increased number of Wikipedia searches correlated with the time spent at home.
 
@@ -73,12 +73,12 @@ As we can see, maybe surprisingly, there is a steep fall in interest for climate
 Policies notably differed between countries, however, no metric exists to assess this.
 For example how can we distinguish quantitatively between a country like Italy where increase in residential area was strong and access to all other areas heavily restricted (by up to ~-90%), and a country like Sweden (a country with notoriously nonrestrictive measures) where there was only a slight decrease in Workplace occupation and a nearly constant residential occupation?
 
-![mobility_change_italy](assets/img/new_img/mobility_change_italy.png) | ![mobility_change_sweden](assets/img/new_img/mobility_change_sweden.png)
+![mobility_change_italy](assets/img/mobility_change_italy.png) | ![mobility_change_sweden](assets/img/mobility_change_sweden.png)
 
 Our idea is thus to leverage on the **Mobility dataset** made available by [Google](https://www.google.com/covid19/mobility/) (shown above) to compute an 'impact' metric for each country. In order to have a quantitative metric, we came up with a ‘lockdown impact factor’, which combines the different types of mobility restriction. 
 
 In this context, we assume that restriction to workplaces and recreational area and increased access to home would be indicative of a more restrictive lockdown.
-![smoothed_lockdown_factor_europe](assets/img/new_img/smoothed_lockdown_impact.png){: .center}
+![smoothed_lockdown_factor_europe](assets/img/smoothed_lockdown_impact.png){: .center}
 
 The metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
 
@@ -121,7 +121,7 @@ By splitting the search further and looking in details at the article views cont
     <option value="After">After</option>
   </select>
 
-  <img id="selected-image2" src="assets/img/new_img/topic_bubble_before.png">
+  <img id="selected-image2" src="assets/img/topic_bubble_before.png">
 
   <script>
     // Get the dropdown menu and image element
@@ -131,11 +131,11 @@ By splitting the search further and looking in details at the article views cont
     // Update the image when the dropdown value changes
     dropdown2.addEventListener("change", function() {
         if (this.value == "Before"){
-            image2.src = "assets/img/new_img/topic_bubble_before.png";
+            image2.src = "assets/img/topic_bubble_before.png";
         } else if (this.value == "During"){
-            image2.src = "assets/img/new_img/topic_bubble_during.png";
+            image2.src = "assets/img/topic_bubble_during.png";
         } else if (this.value == "After"){
-            image2.src = "assets/img/new_img/topic_bubble_after.png";
+            image2.src = "assets/img/topic_bubble_after.png";
         }
     });
   </script>
@@ -144,7 +144,7 @@ Though the main topic always remains ‘Climate change’, and the top 10 consul
 
 We can observe a global shift in the attention pattern, but to find trends in the topic shift attention, we need to look at the differential research for each of the top 30 articles related to climate change
 
-![pageview_topic_change](assets/img/new_img/relative_diff_topics_english.png){: .center}
+![pageview_topic_change](assets/img/relative_diff_topics_english.png){: .center}
 
 Immediately, one can see a really interesting pattern in the subjects that caught the public attention, ‘Climate crisis’, ‘Climate emergency declaration’, and ‘Global dimming’ are all articles with the most ‘catastrophic’ wording.
 
@@ -210,7 +210,7 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     </optgroup>
   </select>
 
-  <img id="selected-image3" src="assets/img/new_img/italy_rel_diff.png">
+  <img id="selected-image3" src="assets/img/italy_rel_diff.png">
 
   <script>
     // Get the dropdown menu and image element
@@ -221,19 +221,19 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     dropdown3.addEventListener("change", function() {
         console.log(this.value);
         if (this.value == "France"){
-            image3.src = "assets/img/new_img/france_rel_diff.png";
+            image3.src = "assets/img/france_rel_diff.png";
         } else if (this.value == "Italy"){
-            image3.src = "assets/img/new_img/italy_rel_diff.png";
+            image3.src = "assets/img/italy_rel_diff.png";
         } else if (this.value == "Germany"){
-            image3.src = "assets/img/new_img/germany_rel_diff.png";
+            image3.src = "assets/img/germany_rel_diff.png";
         } else if (this.value == "Netherlands"){
-            image3.src = "assets/img/new_img/netherlands_rel_diff.png";
+            image3.src = "assets/img/netherlands_rel_diff.png";
         } else if (this.value == "Denmark"){
-            image3.src = "assets/img/new_img/denmark_rel_diff.png";
+            image3.src = "assets/img/denmark_rel_diff.png";
         } else if (this.value == "Sweden"){
-            image3.src = "assets/img/new_img/sweden_rel_diff.png";
+            image3.src = "assets/img/sweden_rel_diff.png";
         } else {
-            image3.src= "assets/img/new_img/norway_rel_diff.png";
+            image3.src= "assets/img/norway_rel_diff.png";
         }
     });
   </script>
@@ -243,7 +243,7 @@ Now let's imagine you are an european reporter and want to write an article on t
 
 What we propose it that you pick one or more subjects from the following list, which regroups the top 3 subjects that have seen the highest interest increase during the Covid-19 crisis in the analysed countries. Note that here we only extracted articles which were non country-specific, in order to increase a broad public interest.
 
-<img id="selected-image2" src="assets/img/new_img/europe_articles.png">
+<img id="selected-image2" src="assets/img/europe_articles.png">
 
 Based on the wikipedia data during the Covid-19 crisis, by choosing your subject within this list you should be able to maximize the awarness toward your article in the domain of climate change.
   
