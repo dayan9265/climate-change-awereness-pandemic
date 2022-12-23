@@ -104,6 +104,10 @@ We will look at the global evolution of the interest towards "climate change" be
 
 Overall, the number of pageviews in the Climate Change article decreased during the Lockdown time, even when taking into account the relative change in overall pageviews. This is quite surprising when considering that the overall trend was an increased in searches! However this seems to be similar across countries, independently of the lockdown strictness.
 
+Combining the relative change in the number of pageviews on "Climate change" related articles with the impact factor previously determined, we can represent the impact of the lockdown severity on the different country populations interest towards climate change.
+
+![impact_lockdown_severity_on_climate_change_views](assets/img/impact_lockdown_severity_on_climate_change_views.png){: .center}
+
 ##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
 
 As we have seen, the total number of research in the topics of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the evolution of the searches regarding these topics. By looking in details at the article views contained within the english Wikipedia category "Climate change", we see that the decrease in topic search is not uniform:
