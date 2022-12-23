@@ -23,6 +23,7 @@ h1 {
   font-size:28px;
   font-weight: 500;
   color: #008B8B;
+  text-align: center;
 }
 
 h2 {
@@ -87,7 +88,7 @@ table {
 }
 
 th, td {
-  text-align:left;
+  text-align:center;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
 }
