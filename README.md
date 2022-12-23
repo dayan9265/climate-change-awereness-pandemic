@@ -98,7 +98,7 @@ Though only observational, this plot is in agreement with the general public’s
 
 Now, we will look at the global evolution of the interest towards "climate change" before (`baseline`) and during the lockdown (`lockdown`). The mean number of pageviews for the selected countries is taken both for the time frame of the lockdown and the same time frame before the lockdown. The time period were adapted for each country, based on the duration of the lockdown in each country.
 
-![after_before_pageviews_climate.png](assets/img/after_before_pageviews_climate.png)
+![after_before_pageviews_climate.png](assets/img/after_before_pageviews_climate.png =100x20)
 
 Overall, the number of pageviews in the Climate Change article decreased during the Lockdown time, even when taking into account the relative change in overall pageviews. This is quite surprising when considering that the overall trend was an increased in searches! However this seems to be similar across countries, independantly of the lockdown strictness.
 
