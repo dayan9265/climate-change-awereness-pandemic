@@ -247,9 +247,4 @@ What we propose it that you pick one or more subjects from the following list, w
 
 Based on the wikipedia data during the Covid-19 crisis, by choosing your subject within this list you should be able to maximize the awarness toward your article in the domain of climate change.
   
-  
-
- ---
-#### Method
-
-We focused on a list of Europeen countries with language specific enough to be able to link the mobility of their countries and the views of Wikipedia in the corresponding articles. The list of selected countries is the following :
+ 
