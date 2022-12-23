@@ -74,7 +74,7 @@ Policies notably differed between countries. However, no metric exists to assess
 
 ![mobility_change_italy](assets/img/mobility_change_italy.png) | ![mobility_change_sweden](assets/img/mobility_change_sweden.png)
 
-Our idea is thus to leverage on the **Mobility dataset** made available by [Google](https://www.google.com/covid19/mobility/) (shown above) to compute an ´impact´ metric for each country. To do so, we came up with a ´lockdown impact factor´, which combines the different types of mobility restriction.
+Our idea is thus to leverage on the **Mobility dataset** made available by [Google](https://www.google.com/covid19/mobility/) (shown above) to compute an "impact" metric for each country. To do so, we came up with a "lockdown impact factor", which combines the different types of mobility restriction.
 
 In this context, we assume that restriction to workplaces and recreational area, and increased time spent at home would be indicative of a more restrictive lockdown.
 
@@ -90,7 +90,7 @@ The metric is computed based on the rationale shown in the table below, where pe
 | Residential area     | +              |
 | Parks                | -              |
 
-Note that the `+` and `-` symbols indicate whether increased access in a particular area indicates a more or less restrictive lockdown, respectively.
+Note that the ``+`` and ``-`` symbols indicate whether increased access in a particular area indicates a more or less restrictive lockdown, respectively.
 
 For the upcoming analyses, we will study the cases of 7 european countries with distinct languages. This will allow us to link the wikipedia language trends to the country national events (1st case, lockdown, back to normalty). The selected countries are: France, Italy, Germany, Denmark, Netherlands, Sweden, and Norway.
 
@@ -105,7 +105,7 @@ Overall, the number of pageviews in the Climate Change article decreased during 
 ##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
 
 As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the research behavior regarding this topic.
-By looking in details at the article views contained within the english Wikipedia category ´Climate change´, we see that the decrease in topic search is not uniform:
+By looking in details at the article views contained within the english Wikipedia category `Climate change`, we see that the decrease in topic search is not uniform:
 
 <label for="period">Choose a period to display info:</label>
 <select name="period" id="period">
