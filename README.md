@@ -6,13 +6,13 @@
 
 Source : [Europeen Space Agency](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Air_pollution_remains_low_as_Europeans_stay_at_home)
 
-In the beginning of the year 2020, the World suddenly had to stop as the spread of the SARS-CoV-2 virus became a too serious threat. This quite directly reflected in the overall air quality and [revealed our impact on the air quality](https://www.pnas.org/doi/10.1073/pnas.2006853117) (Venter, Aunan, Chowdhury, Lelieved 2020).
-As poeple spent increasing time at home and lost their bearings, it gave them time to reflect on their usual lifestyle and consumptions habit, which as it was now made visible, had a great impact on the global air quality.
+In the beginning of the year 2020, the World suddenly had to stop as the spread of the SARS-CoV-2 virus became a too serious threat. This quite directly reflected in the overall air quality and [revealed the impact we have on it](https://www.pnas.org/doi/10.1073/pnas.2006853117) (Venter, Aunan, Chowdhury, Lelieved 2020).
+As people spent increasing time at home and lost their bearings, it gave them time to reflect on their usual lifestyle and consumptions habit, which as it was now made visible, had a great impact on the global air quality.
 
-Based on **Wikipedia** article page views, we will aim at discerning the effect of the 2020 lockdown on the interest for the climate crisis. This will be done at different scales, and by analyzing the emerging lexical themes in the researched articles. We will also link this to the restriction level of the concerned countries (see  [Method](#method) section).
+Based on **Wikipedia** article page views, we will aim at discerning the effect of the 2020 lockdown on the interest for the climate crisis. This will be done at different scales, and by analyzing the emerging lexical themes in the researched articles. We will also link this to the restriction level of the concerned countries. For more information on how this was done, see the [Method](#method) section in the About page).
 
 ## How did the covid crisis impact people's lifestyle, mobility and localization ?
-Indeed, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time, reported from Apple mobile phones, dramatically decreased to around ~30% compared to the baseline. 
+The effect of the pandemic on the mobility were drastic. Starting around early March, the transit, driving and walking time, reported from Apple mobile phones, dramatically decreased up to 20% of the baseline values.
 
 <label for="mobility">Choose a type of mobility to display its evolution over time:</label>
 <select name="mobility" id="mobility">
@@ -40,9 +40,9 @@ Indeed, the effect of the pandemic on the mobility were drastic, and starting ar
     });
     </script>
     
-Already though, we see quite some discrepancy between countries, resulting from the different policies in place in the countries.
+Already though, we can see some discrepancy between countries, resulting from the different policies in place in the countries. Italy and France which suffered a lot from the COVID-crisis were forced to set up strict restriction policies that strongly affected the mobility of their population.
 
-Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
+The social life cycle of people living in Europe in mainly driven by weeks. Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
 
 ![mean_transit_europe](assets/img/new_img/weekly_mobility_pattern.png)
 
