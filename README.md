@@ -12,7 +12,7 @@ As people spent increasing time at home and lost their bearings, it gave them ti
 Based on **Wikipedia** article page views, we will aim at discerning the effect of the 2020 lockdown on the interest for the climate crisis. This will be done at different scales, and by analyzing the emerging lexical themes in the researched articles. We will also link this to the restriction level of the concerned countries. For more information on how this was done, see the [Method](#method) section in the About page).
 
 ## How did the covid crisis impact people's lifestyle, mobility and localization ?
-The effect of the pandemic on the mobility were drastic. Starting around early March, the transit, driving and walking time, reported from Apple mobile phones, dramatically decreased up to 20% of the baseline values.
+The effect of the pandemic on the mobility were drastic. Starting around early March, the transit, driving and walking time, reported from Apple mobile phones,  drastically decreased in most countries. The changes range from only small changes in certain countries like Sweden to up to 10% of the baseline value for the countries with strictest lockdown like Italy or France.
 
 <label for="mobility">Choose a type of mobility to display its evolution over time:</label>
 <select name="mobility" id="mobility">
@@ -42,7 +42,7 @@ The effect of the pandemic on the mobility were drastic. Starting around early M
     
 Already though, we can see some discrepancy between countries, resulting from the different policies in place in the countries. Italy and France which suffered a lot from the COVID-crisis were forced to set up strict restriction policies that strongly affected the mobility of their population.
 
-The social life cycle of people living in Europe in mainly driven by weeks. Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
+The social life cycle of people living in Europe is mainly driven by weeks. Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
 
 ![mean_transit_europe](assets/img/new_img/weekly_mobility_pattern.png)
 
@@ -91,6 +91,8 @@ The metric is computed based on the rationale shown in the table below, where pe
 | Parks                | -              |
 
 Note that the `+` and `-` symbols indicate whether increased access in a particular area indicates a more or less restrictive lockdown, respectively.
+
+For the upcoming analyses, we will study the cases of 7 countries for which the language is mostly spoken only in the concerned country. This will allow us to link the wikipedia language trends to the country national events (1st case, lockdown, back to normalty). The selected countries are: France, Italy, Germany, Denmark, Netherlands, Sweden, and Norway.
 
 Though only observational, this is in agreement with the general public’s opinion of the strictness of different countries. For exemple, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). We also can see the trend in United Kingdom, where the ban was not really lifted as quickly as other countries. 
 
@@ -208,7 +210,7 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     </optgroup>
   </select>
 
-  <img id="selected-image3" src="assets/img/new_img/france_rel_diff.png">
+  <img id="selected-image3" src="assets/img/new_img/denmark_rel_diff.png">
 
   <script>
     // Get the dropdown menu and image element
