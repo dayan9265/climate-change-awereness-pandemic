@@ -1,5 +1,5 @@
 
-# Are we facing a climate awareness pandemic?
+# Are we facing a climate change awareness pandemic?
 ## How did the COVID-19 pandemic impact our interest in the climate crisis?
 
 ![Air quality europe](assets/img/air_quality_europe.gif)
