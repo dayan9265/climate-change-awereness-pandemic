@@ -200,17 +200,17 @@ Based on the previous finding, we could assume that the shifting pattern of inte
 <label for="country">Choose a country to display info:</label>
 <select name="country" id="country">
     <optgroup label="Europe">
+      <option value="Italy">Italy</option>
       <option value="Denmark">Denmark</option>
       <option value="France">France</option>
       <option value="Germany">Germany</option>
-      <option value="Italy">Italy</option>
       <option value="Netherlands">Netherlands</option>
       <option value="Norway">Norway</option>
       <option value="Sweden">Sweden</option>
     </optgroup>
   </select>
 
-  <img id="selected-image3" src="assets/img/new_img/denmark_rel_diff.png">
+  <img id="selected-image3" src="assets/img/new_img/italy_rel_diff.png">
 
   <script>
     // Get the dropdown menu and image element
