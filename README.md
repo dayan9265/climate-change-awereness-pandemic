@@ -142,9 +142,7 @@ First, we can observe that the subjects that mostly caught the public attention 
 
 Though the global topic, and the global number of views for the topic ‘Climate change’ diminished during this period, articles with themes related to the urgency of the situation seemed to gain in popularity!
 
-There is also a ‘back to normalcy’ effect, described here as the 'summer' period, where all subject related to Climate change, diminished in popularity compared to the lockdown period. 
-
-What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’.
+There is also a "back to normalcy" effect, described here as the "summer" period, where all subject related to Climate change, diminished in popularity compared to the lockdown period.
 
 To further investigate this, we took the top 30 articles that had the most differential pageviews during the lockdown period and we classified them into 3 categories: `negative`, `neutral` and `positive`:
 
@@ -186,7 +184,7 @@ We can observe that the interest in the `negative` increased more for the countr
 
 ## How to maintain awareness of the ecological questions during a world crisis?
 
-These results were found for the English Wikipedia category, however, though global, the pandemic was handled very differently within countries. 
+These results were found for the English Wikipedia category. However, though global, the pandemic was handled very differently within countries. 
 Based on the previous finding, we could assume that the shifting pattern of interest might be different in other countries. The following animation allows to choose each of the seven analysed european countries and see its pattern of interest change. The top 3 articles which have seen the highest increase during covid crisis, as well as the country's lockdown impact factor ranking (among the seven analysed countries), are also highlighted. 
 
 <label for="country">Choose a country to display info:</label>
