@@ -17,7 +17,7 @@
         {% if item.url == page.url %}
           <a href="#">{{ item.title }}</a>
         {% else %}
-          <a href="{{ item.url }}">{{ item.title }}</a>
+          <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>
         {% endif %}
       {% endfor %}
     </nav>
