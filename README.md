@@ -12,9 +12,9 @@ As poeple spent increasing time at home and lost their bearings, it gave them ti
 Based on **Wikipedia** article page views, we will aim at discerning the effect of the 2020 lockdown on the interest for the climate crisis. This will be done at different scales, and by analyzing the emerging lexical themes in the researched articles. We will also link this to the restriction level of the concerned countries (see  [Method](#method) section).
 
 ## How did the covid crisis impact people's lifestyle, mobility and localization ?
-Indeed, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time, reported from Apple mobile phones, dramatically decreased to around ~30% compared to the baseline.
+Indeed, the effect of the pandemic on the mobility were drastic, and starting around early March, the transit, driving and walking time, reported from Apple mobile phones, dramatically decreased to around ~30% compared to the baseline. 
 
-<label for="mobility">Choose a type of mobility to display info:</label>
+<label for="mobility">Choose a type of mobility to display its evolution over time:</label>
 <select name="mobility" id="mobility">
     <option value="Driving">Driving</option>
     <option value="Transit">Transit</option>
@@ -52,6 +52,8 @@ With this kind of beneficial changes on the planet, could it be that the covid-c
 
 A great data source to capture the population's interest is the Wikipedia database. It allows to follow, in real time, the concerns and interest of a population and is easily accessible.
 
+---> insert our plot instead 
+
 As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic. This is confirmed by the following graphs that show an global increased number of Wikipedia searches correlated with the time spent at home.
 
 ![wiki_searches_in_function_of_time_at_home](assets/img/new_img/wikipedia_searches_in_function_of_time_at_home.png){: .center}
@@ -65,18 +67,18 @@ If we take the general theme of climate change (which is now strongly establishe
 
 ![wikipedia_climate_change_nbr_view](assets/img/new_img/cummulative_views_climate_change.png){: .center}
 
-As we can see, maybe surprisingly, there is a steep fall in interest for climate change related topics during the time of the covid pandemic. 
+As we can see, maybe surprisingly, there is a steep fall in interest for climate change related topics during the time of the covid pandemic. This is contrary to the effect observed in the previous figure, which showed an increase in the total number of wikipedia page views. To better understand this apparent disinterest toward climate change, we will now deepen our analysis.
 
 ## How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
 
 Policies notably differed between countries, however, no metric exists to assess this.
-For example how can we distinguish quantitatively between a country like Italy where increase in residential area was strong and access to all other areas heavily restricted (by up to ~-90%), and a country like Sweden (a country with notoriously nonrestrictive measures) where there was even a slight decrease in Workplace occupation and a nearly constant residential occupation?
+For example how can we distinguish quantitatively between a country like Italy where increase in residential area was strong and access to all other areas heavily restricted (by up to ~-90%), and a country like Sweden (a country with notoriously nonrestrictive measures) where there was only a slight decrease in Workplace occupation and a nearly constant residential occupation?
 
 ![mobility_change_italy](assets/img/new_img/mobility_change_italy.png) | ![mobility_change_sweden](assets/img/new_img/mobility_change_sweden.png)
 
-Our idea is thus to leverage on the **Mobility dataset** made available by [Google](https://www.google.com/covid19/mobility/) (shown above)to compute an 'impact' metric for each country. In order to have a quantitative metric, we came up with a ‘lockdown impact factor’, which combines the different types of mobility restriction. 
+Our idea is thus to leverage on the **Mobility dataset** made available by [Google](https://www.google.com/covid19/mobility/) (shown above) to compute an 'impact' metric for each country. In order to have a quantitative metric, we came up with a ‘lockdown impact factor’, which combines the different types of mobility restriction. 
 
-n this context, we assume that restriction to workplaces and recreational area and increased access to home would be indicative of a more restrictive lockdown.
+In this context, we assume that restriction to workplaces and recreational area and increased access to home would be indicative of a more restrictive lockdown.
 ![smoothed_lockdown_factor_europe](assets/img/new_img/smoothed_lockdown_impact.png){: .center}
 
 The metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
@@ -110,7 +112,7 @@ Overall, the number of pageviews in the Climate Change article decreased during 
 ##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
 
 As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the research behavior regarding this topic.
-By splitting the search further and looking in details at the article views contained within the Wikipedia category ‘Climate change’, we see that the decrease in topic search is not uniform:
+By splitting the search further and looking in details at the article views contained within the enlgish Wikipedia category ‘Climate change’, we see that the decrease in topic search is not uniform:
 
 <label for="period">Choose a period to display info:</label>
 <select name="period" id="period">
@@ -138,9 +140,9 @@ By splitting the search further and looking in details at the article views cont
     });
   </script>
 
-Though the main topic always remains ‘Climate change’, and the top 10 topics overall remain the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on ‘Climate change’, with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches in this category declines, it does not appear to be uniformly decreasing. Indeed, there is an homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trends fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, ‘Transition town’ emerges in the top10 at the expense of ‘Global warming hiatus’.
+Though the main topic always remains ‘Climate change’, and the top 10 consulted topics overall remain the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on ‘Climate change’, with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches in this category declines, it does not appear to be uniformly decreasing. Indeed, there is an homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trends fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, ‘Transition town’ emerges in the top10 at the expense of ‘Global warming hiatus’.
 
-We can observe a global shift in the attention pattern, but to find trends in the topic shift attention, we need to look at the differential research for each of the top 20 subjects related to climate change
+We can observe a global shift in the attention pattern, but to find trends in the topic shift attention, we need to look at the differential research for each of the top 30 articles related to climate change
 
 ![pageview_topic_change](assets/img/new_img/relative_diff_topics_english.png){: .center}
 
@@ -148,17 +150,12 @@ Immediately, one can see a really interesting pattern in the subjects that caugh
 
 Though the global topic, and the global number of views for the topic ‘Climate change’ diminished during this period, articles with themes related to the urgency of the situation seemed to gain in popularity!
 
-There is also a ‘summer’ effect, where all subject related to Climate change, diminished in popularity compared to the lockdown period.
+There is also a ‘back to normalty’ effect, described here as the 'summer' period, where all subject related to Climate change, diminished in popularity compared to the lockdown period. 
 
-What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’
-
-> ! needs to be done !
-
-We see that topics also fluctuate between time period but in this case, the overall topic ‘Climate change’ is quite stable and there is no clear common themes between the most differentially researched topics. Moreover, the topics linked to the ‘urgency’ are not even in the top20 researched topics (see ‘Climate crisis’ and ‘Climate emergency declaration’)
-
+What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’.
 
 These results were found for the English Wikipedia category, however, though global, the pandemic was handled very differently within countries. 
-Based on the previous finding, we could assume that the shifting pattern of interest might be more or less pronounced based on the strictness of the Lockdown.
+Based on the previous finding, we could assume that the shifting pattern of interest might be different in other countries. The following animation allows to choose each of the seven analysed contry and see its pattern of interest change. The top 3 articles which have seen the biggest increase during covid crisis, as well as the country's lockdown impact factor ranking (among the seven analysed countries), are also highlighted. 
 
 <label for="country">Choose a country to display info:</label>
 <select name="country" id="country">
@@ -201,7 +198,14 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     });
   </script>
   
-  <img id="selected-image2" src="assets/img/new_img/europe_words.png">
+  
+Now let's imagine you are an european reporter and want to write an article on the broad subject of climate change. Unfortunately, a new global crisis is taking place at that moment, and you do not know how to ensure that you article will raise awareness toward this crucial subject. You are worried as you know based on previous studies that there seems to be a decrease in climate change awareness during crisis periods. 
+
+What we propose it that you pick one or more subjects from the following list, which regroups the top 3 subjects that have seen the highest interest increase during the Covid-19 crisis. Note that here we only extracted articles which were non country-specific, in order to increase a broad public interest.
+
+<img id="selected-image2" src="assets/img/new_img/europe_words.png">
+  
+based on the strictness of the Lockdown.
     
 ## Conclusion
  ---
