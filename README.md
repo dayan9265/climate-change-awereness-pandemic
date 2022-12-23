@@ -106,7 +106,7 @@ Overall, the number of pageviews in the Climate Change article decreased during 
 
 Combining the relative change in the number of pageviews on "Climate change" related articles with the impact factor previously determined, we can represent the impact of the lockdown severity on the different country populations interest towards climate change.
 
-![impact_lockdown_severity_on_climate_change_views](assets/img/impact_lockdown_severity_on_climate_change_views.png){: .center}
+<img src="assets/img/impact_lockdown_severity_on_climate_change_views.png" width="600" height="300" />
 
 ##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
 
