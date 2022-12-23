@@ -155,7 +155,7 @@ There is also a ‘back to normalty’ effect, described here as the 'summer' pe
 What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’.
 
 These results were found for the English Wikipedia category, however, though global, the pandemic was handled very differently within countries. 
-Based on the previous finding, we could assume that the shifting pattern of interest might be different in other countries. The following animation allows to choose each of the seven analysed contry and see its pattern of interest change. The top 3 articles which have seen the biggest increase during covid crisis, as well as the country's lockdown impact factor ranking (among the seven analysed countries), are also highlighted. 
+Based on the previous finding, we could assume that the shifting pattern of interest might be different in other countries. The following animation allows to choose each of the seven analysed european countries and see its pattern of interest change. The top 3 articles which have seen the highest increase during covid crisis, as well as the country's lockdown impact factor ranking (among the seven analysed countries), are also highlighted. 
 
 <label for="country">Choose a country to display info:</label>
 <select name="country" id="country">
@@ -201,12 +201,13 @@ Based on the previous finding, we could assume that the shifting pattern of inte
   
 Now let's imagine you are an european reporter and want to write an article on the broad subject of climate change. Unfortunately, a new global crisis is taking place at that moment, and you do not know how to ensure that you article will raise awareness toward this crucial subject. You are worried as you know based on previous studies that there seems to be a decrease in climate change awareness during crisis periods. 
 
-What we propose it that you pick one or more subjects from the following list, which regroups the top 3 subjects that have seen the highest interest increase during the Covid-19 crisis. Note that here we only extracted articles which were non country-specific, in order to increase a broad public interest.
+What we propose it that you pick one or more subjects from the following list, which regroups the top 3 subjects that have seen the highest interest increase during the Covid-19 crisis in the analysed countries. Note that here we only extracted articles which were non country-specific, in order to increase a broad public interest.
 
-<img id="selected-image2" src="assets/img/new_img/europe_words.png">
+<img id="selected-image2" src="assets/img/new_img/europe_articles.png">
+
+Based on the wikipedia data during the Covid-19 crisis, by choosing your subject within this list you should be able to maximize the awarness toward your article in the domain of climate change.
   
-based on the strictness of the Lockdown.
-    
+  
 ## Conclusion
  ---
 #### Method
