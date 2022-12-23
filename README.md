@@ -40,29 +40,29 @@ The effect of the pandemic on the mobility were drastic. Starting around early M
     });
     </script>
     
-Already though, we can see some discrepancy between countries, resulting from the different policies in place in the countries. Italy and France which suffered a lot from the COVID-crisis were forced to set up strict restriction policies that strongly affected the mobility of their population.
+Already though, we can see some discrepancy between countries, resulting from the different policies in place in the countries. Italy and France which suffered a lot from the COVID-crisis were forced to set up strict restriction policies that strongly affected the mobility of their population. On the contrary, northern countries like Norway or Sweden were much less affected, therefore set up less restrictive policies.
 
-The social life cycle of people living in Europe is mainly driven by weeks. Now, these results are smoothed on a weekly basis, and in fact all mobility behavior were previously highly influenced by a weekly pattern.
+The social life cycle of people living in Europe in mainly driven by weeks. It follows that mobility should also be highly influenced by a weekly pattern. This is why it it interesting to look at these results when they are smoothed on a weekly basis.
 
 ![mean_transit_europe](assets/img/weekly_mobility_pattern.png)
 
-Before the pandemic and lockdown hit, Fridays and Saturdays were consistently more active than the rest of the days. However, one of the first visible effect of the pandemic, once restriction hit, is not only that the mobility drastically decreased, but also that this weekly pattern disappeared. This suggests that the covid pandemic not only affected people's mobility, but also their behaviour.
-
-With this kind of beneficial changes on the planet, could it be that the covid-crisis managed to question society on its relationship to mobility, and furthermore on the impact of the society on the ecosystem? Did people gain interest in the ecological cause?
+Before the pandemic and the lockdown hit, Fridays and Saturdays were consistently more active than the rest of the days in terms of mobility. However, one of the first visible effect of the pandemic, once restriction hit, is not only that the mobility drastically decreased, but also that this weekly pattern disappeared. This suggests that the covid pandemic not only affected people’s mobility, but also their behaviour.
 
 ## Is the mobility evolution correlated with a higher number of overall Wikipedia searches?
 
-A great data source to capture the population's interest is the Wikipedia database. It allows to follow, in real time, the concerns and interest of a population and is easily accessible.
+With this kind of beneficial changes on the planet, could it be that the covid-crisis managed to question society on its relationship to mobility, and furthermore on the impact of the society on the ecosystem? Did people gain interest in the ecological cause?
+
+A great data source to capture the population’s interest is the Wikipedia database. By looking at the number of views in the articles on Wikipedia, it is easy to observe, in real time, the concerns and interest of a population. We can, in the first place, look at the total number of english written article views (smoothed by averaging by week):
 
 ![wikipedia_total_views](assets/img/wikipedia_total_views.png)
 
-As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic. This is confirmed by the following graphs that show an global increased number of Wikipedia searches correlated with the time spent at home.
+As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic.
 
 We will now dig in deeper in the subject, and focus on the interest of people towards ecology specifically, and try to answer following question:
 
 ## Overall, how did interest in ecology change during the covid pandemic?
 
-If we take the general theme of climate change (which is now strongly established in our modern society as a major ecological problem) and look at the number of Wikipedia searches related to this thematic, we should be able to depict people's interest towards ecology.
+If we take the general theme of climate change (which is now strongly established in our modern society as a major ecological problem) and look at the number of Wikipedia searches related to this thematic, we should be able to depict people’s interest towards ecology.
 
 ![cummulative_views_climate_change.png](assets/img/cummulative_views_climate_change.png){: .center}
 
@@ -70,14 +70,14 @@ As we can see, maybe surprisingly, there is a steep fall in interest for climate
 
 ## How did the severity of lockdown in a country have an impact on the disinterest toward ecological topics? (Does a more severe lockdown increase the observed trends?)  
 
-Policies notably differed between countries, however, no metric exists to assess this.
-For example how can we distinguish quantitatively between a country like Italy where increase in residential area was strong and access to all other areas heavily restricted (by up to ~-90%), and a country like Sweden (a country with notoriously nonrestrictive measures) where there was only a slight decrease in Workplace occupation and a nearly constant residential occupation?
+Policies notably differed between countries. However, no metric exists to assess this. For example, how can we distinguish quantitatively between a country like Italy, where the population was heavily restricted in all external areas, and a country like Sweden (a country with notoriously nonrestrictive measures) where there was only a slight decrease in workplaces occupation, recreation areas and transit stations?
 
 ![mobility_change_italy](assets/img/mobility_change_italy.png) | ![mobility_change_sweden](assets/img/mobility_change_sweden.png)
 
-Our idea is thus to leverage on the **Mobility dataset** made available by [Google](https://www.google.com/covid19/mobility/) (shown above) to compute an 'impact' metric for each country. In order to have a quantitative metric, we came up with a ‘lockdown impact factor’, which combines the different types of mobility restriction. 
+Our idea is thus to leverage on the **Mobility dataset** made available by [Google](https://www.google.com/covid19/mobility/) (shown above) to compute an ´impact´ metric for each country. To do so, we came up with a ´lockdown impact factor´, which combines the different types of mobility restriction.
 
-In this context, we assume that restriction to workplaces and recreational area and increased access to home would be indicative of a more restrictive lockdown.
+In this context, we assume that restriction to workplaces and recreational area, and increased time spent at home would be indicative of a more restrictive lockdown.
+
 ![smoothed_lockdown_factor_europe](assets/img/smoothed_lockdown_impact.png){: .center}
 
 The metric is computed based on the rationale shown in the table below, where percent change in the mentioned access area was subtracted if it was increased in less restrictive lockdowns.
@@ -92,18 +92,11 @@ The metric is computed based on the rationale shown in the table below, where pe
 
 Note that the `+` and `-` symbols indicate whether increased access in a particular area indicates a more or less restrictive lockdown, respectively.
 
-For the upcoming analyses, we will study the cases of 7 countries for which the language is mostly spoken only in the concerned country. This will allow us to link the wikipedia language trends to the country national events (1st case, lockdown, back to normalty). The selected countries are: France, Italy, Germany, Denmark, Netherlands, Sweden, and Norway.
+For the upcoming analyses, we will study the cases of 7 european countries with distinct languages. This will allow us to link the wikipedia language trends to the country national events (1st case, lockdown, back to normalty). The selected countries are: France, Italy, Germany, Denmark, Netherlands, Sweden, and Norway.
 
-Though only observational, this is in agreement with the general public’s opinion of the strictness of different countries. For exemple, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). We also can see the trend in United Kingdom, where the ban was not really lifted as quickly as other countries. 
+Though only observational, this plot is in agreement with the general public’s opinion of the strictness of different countries. For exemple, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). Also, we can see the delayed trend in United Kingdom, where the ban was not really lifted as quickly as in the other countries.
 
-
-Indeed, the mean number of pageviews on the article ‘Climate change’ (or the one corresponding in the countries’ language) had the following evolution. The average is taken within the time specified as ‘Lockdown’ and ‘Normalcy’ in the provided data for the ‘before’ point, and on the same number of days before Lockdown. The time period were adapted for each country.
-
---> only talk about the normalized plot
-
-Taken together, we can hypothesize that the country’s level of lockdown restrictiveness could have some impact on the interest level shift, indeed France was in the most restrictive countries (according to the impact factor) and it has the biggest shift, whereas Nordic countries such as Norway and Danemark which had lower impact factor have a more stable evolution in the page consultation average.
-
-But once taking into account the overal change in Wikipedia views for each country, and comparing the number of views to the impact factor, the interpretation we can make differs.
+Now, we will look at the global evolution of the interest towards "climate change" before (`baseline`) and during the lockdown (`lockdown`). The mean number of pageviews for the selected countries is taken both for the time frame of the lockdown and the same time frame before the lockdown. The time period were adapted for each country, based on the duration of the lockdown in each country.
 
 ![after_before_pageviews_climate.png](assets/img/after_before_pageviews_climate.png)
 
