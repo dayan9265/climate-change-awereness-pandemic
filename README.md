@@ -203,7 +203,7 @@ Based on the previous finding, we could assume that the shifting pattern of inte
     </optgroup>
   </select>
 
-  <img id="selected-image3" src="assets/img/new_img/france_rel_diff.png">
+  <img id="selected-image3" src="assets/img/new_img/denmark_rel_diff.png">
 
   <script>
     // Get the dropdown menu and image element
