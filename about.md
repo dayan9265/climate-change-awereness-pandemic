@@ -15,6 +15,11 @@ The project was supervised by Bhargav Srinivasadesikan.
 
 Thank you for reading our website, if you have any questions, remarks or recommendation. Don't hesitate to post in on our [GitHub](https://github.com/epfl-ada/ada-2022-project-bradafromanadamada/issues)
 
+ ---
+#### Method
+
+We focused on a list of Europeen countries with language specific enough to be able to link the mobility of their countries and the views of Wikipedia in the corresponding articles. The list of selected countries is the following :
+
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~.
 
