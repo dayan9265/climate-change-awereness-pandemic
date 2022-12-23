@@ -92,15 +92,15 @@ The metric is computed based on the rationale shown in the table below, where pe
 
 Note that the ``+`` and ``-`` symbols indicate whether increased access in a particular area indicates a more or less restrictive lockdown, respectively.
 
-For the upcoming analyses, we will study the cases of 7 european countries with distinct languages. This will allow us to link the wikipedia language trends to the country national events (1st case, lockdown, back to normalty). The selected countries are: France, Italy, Germany, Denmark, Netherlands, Sweden, and Norway.
+For the upcoming analyses, we will study the cases of 7 european countries with distinct languages. This will allow us to link the wikipedia language trends to the country national events (1st case, lockdown, back to normalcy). The selected countries are: France, Italy, Germany, Denmark, Netherlands, Sweden, and Norway.
 
-Though only observational, this plot is in agreement with the general public’s opinion of the strictness of different countries. For exemple, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). Also, we can see the delayed trend in United Kingdom, where the ban was not really lifted as quickly as in the other countries.
+Though only observational, this plot is in agreement with the general public’s opinion of the strictness of different countries. For example, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). Also, we can see the delayed trend in United Kingdom, where the ban was not really lifted as quickly as in the other countries.
 
 Now, we will look at the global evolution of the interest towards "climate change" before (baseline) and during the lockdown (lockdown). The mean number of pageviews for the selected countries is taken both for the time frame of the lockdown and the same time frame before the lockdown. The time period were adapted for each country, based on the duration of the lockdown in each country.
 
 <img src="assets/img/after_before_pageviews_climate.png" width="450" height="600" />
 
-Overall, the number of pageviews in the Climate Change article decreased during the Lockdown time, even when taking into account the relative change in overall pageviews. This is quite surprising when considering that the overall trend was an increased in searches! However this seems to be similar across countries, independantly of the lockdown strictness.
+Overall, the number of pageviews in the Climate Change article decreased during the Lockdown time, even when taking into account the relative change in overall pageviews. This is quite surprising when considering that the overall trend was an increased in searches! However this seems to be similar across countries, independently of the lockdown strictness.
 
 ##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
 
@@ -142,7 +142,7 @@ First, we can observe that the subjects that mostly caught the public attention 
 
 Though the global topic, and the global number of views for the topic ‘Climate change’ diminished during this period, articles with themes related to the urgency of the situation seemed to gain in popularity!
 
-There is also a ‘back to normalty’ effect, described here as the 'summer' period, where all subject related to Climate change, diminished in popularity compared to the lockdown period. 
+There is also a ‘back to normalcy’ effect, described here as the 'summer' period, where all subject related to Climate change, diminished in popularity compared to the lockdown period. 
 
 What we can also note is the interest in global emission pattern through the article on ‘Ozone depletion and climate change’.
 
@@ -237,6 +237,6 @@ What we propose it that you pick one or more subjects from the following list, w
 
 <img id="selected-image2" src="assets/img/europe_articles.png">
 
-Based on the wikipedia data during the Covid-19 crisis, by choosing your subject within this list you should be able to maximize the awarness toward your article in the domain of climate change.
+Based on the wikipedia data during the Covid-19 crisis, by choosing your subject within this list you should be able to maximize the awareness toward your article in the domain of climate change.
   
  
