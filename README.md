@@ -105,7 +105,7 @@ Overall, the number of pageviews in the Climate Change article decreased during 
 ##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
 
 As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the research behavior regarding this topic.
-By splitting the search further and looking in details at the article views contained within the enlgish Wikipedia category ‘Climate change’, we see that the decrease in topic search is not uniform:
+By looking in details at the article views contained within the english Wikipedia category ´Climate change´, we see that the decrease in topic search is not uniform:
 
 <label for="period">Choose a period to display info:</label>
 <select name="period" id="period">
@@ -133,7 +133,7 @@ By splitting the search further and looking in details at the article views cont
     });
   </script>
 
-Though the main topic always remains ‘Climate change’, and the top 10 consulted topics overall remain the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on ‘Climate change’, with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches in this category declines, it does not appear to be uniformly decreasing. Indeed, there is an homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trends fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, ‘Transition town’ emerges in the top10 at the expense of ‘Global warming hiatus’.
+Though the main topic always remains ´Climate change´, and the top 10 consulted topics overall remain the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on ´Climate change´, with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches in this category declines, it does not appear to be uniformly decreasing. Indeed, there is an homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trend fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, ´Transition town´ emerges in the top10 at the expense of ´Global warming hiatus´.
 
 We can observe a global shift in the attention pattern, but to find trends in the topic shift attention, we need to look at the differential research for each of the top 30 articles related to climate change
 
