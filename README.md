@@ -96,16 +96,15 @@ For the upcoming analyses, we will study the cases of 7 european countries with 
 
 Though only observational, this plot is in agreement with the general public’s opinion of the strictness of different countries. For exemple, nordic countries such as Norway and Denmark had less restrictive lockdown, while France and Spain had very strict lockdown (with ban on leaving the house for example). Also, we can see the delayed trend in United Kingdom, where the ban was not really lifted as quickly as in the other countries.
 
-Now, we will look at the global evolution of the interest towards "climate change" before (`baseline`) and during the lockdown (`lockdown`). The mean number of pageviews for the selected countries is taken both for the time frame of the lockdown and the same time frame before the lockdown. The time period were adapted for each country, based on the duration of the lockdown in each country.
+Now, we will look at the global evolution of the interest towards "climate change" before (baseline) and during the lockdown (lockdown). The mean number of pageviews for the selected countries is taken both for the time frame of the lockdown and the same time frame before the lockdown. The time period were adapted for each country, based on the duration of the lockdown in each country.
 
-<img src="assets/img/after_before_pageviews_climate.png" width="400" height="500" />
+<img src="assets/img/after_before_pageviews_climate.png" width="450" height="600" />
 
 Overall, the number of pageviews in the Climate Change article decreased during the Lockdown time, even when taking into account the relative change in overall pageviews. This is quite surprising when considering that the overall trend was an increased in searches! However this seems to be similar across countries, independantly of the lockdown strictness.
 
 ##  Which subjects within the theme of climate change gained or lost popularity during the lockdown period?
 
-As we have seen, the total number of research in the topic of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the research behavior regarding this topic.
-By looking in details at the article views contained within the english Wikipedia category `Climate change`, we see that the decrease in topic search is not uniform:
+As we have seen, the total number of research in the topics of climate change decreased drastically during the pandemic time. However, it can be interesting to dig a bit deeper into this, and investigate the evolution of the searches regarding these topics. By looking in details at the article views contained within the english Wikipedia category "Climate change", we see that the decrease in topic search is not uniform:
 
 <label for="period">Choose a period to display info:</label>
 <select name="period" id="period">
@@ -133,13 +132,13 @@ By looking in details at the article views contained within the english Wikipedi
     });
   </script>
 
-Though the main topic always remains ´Climate change´, and the top 10 consulted topics overall remain the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on ´Climate change´, with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches in this category declines, it does not appear to be uniformly decreasing. Indeed, there is an homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trend fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, ´Transition town´ emerges in the top10 at the expense of ´Global warming hiatus´.
+Though the main topic always remains "Climate change", and the top 10 consulted topics remain overall the same, we observe a difference in the interest pattern. Before the crisis, the main focus was on "Climate change", with 3-4 trending topics and 5-6 smaller topics. During the crisis, though we have seen that the overall number of searches in this category declines, it does not appear to be uniformly decreasing. Indeed, there is an homogenization of the number of pageviews for previously less popular topics. Interestingly,  this trend fades during the summer, as it tends to go back to the pattern observed before the crisis. Also, after the covid crisis, "Transition town" emerges in the top10 at the expense of "Global warming hiatus".
 
 We can observe a global shift in the attention pattern, but to find trends in the topic shift attention, we need to look at the differential research for each of the top 30 articles related to climate change
 
 ![pageview_topic_change](assets/img/relative_diff_topics_english.png){: .center}
 
-Immediately, one can see a really interesting pattern in the subjects that caught the public attention, ‘Climate crisis’, ‘Climate emergency declaration’, and ‘Global dimming’ are all articles with the most ‘catastrophic’ wording.
+First, we can observe that the subjects that mostly caught the public attention namely "Climate crisis", "Climate emergency declaration" and "Global dimming" are all articles with the most ‘catastrophic’ wording.
 
 Though the global topic, and the global number of views for the topic ‘Climate change’ diminished during this period, articles with themes related to the urgency of the situation seemed to gain in popularity!
 
