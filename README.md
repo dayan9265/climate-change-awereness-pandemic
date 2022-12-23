@@ -54,12 +54,9 @@ With this kind of beneficial changes on the planet, could it be that the covid-c
 
 A great data source to capture the population's interest is the Wikipedia database. It allows to follow, in real time, the concerns and interest of a population and is easily accessible.
 
----> insert our plot instead 
+![wikipedia_total_views](assets/img/new_img/wikipedia_total_views.png)
 
 As shown in [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://ui.adsabs.harvard.edu/abs/2020arXiv200508505H/abstract), there was an increased number of Wikipedia searches, correlating with an increased time spent at home for specific countries. We can thus hypothesize that the population turned to Wikipedia as a source of information, and that the number of Wikipedia page views can reflect the population’s interest during the pandemic. This is confirmed by the following graphs that show an global increased number of Wikipedia searches correlated with the time spent at home.
-
-![wiki_searches_in_function_of_time_at_home](assets/img/new_img/wikipedia_searches_in_function_of_time_at_home.png){: .center}
-
 
 We will now dig in deeper in the subject, and focus on the interest of people towards ecology specifically, and try to answer following question:
 
@@ -67,7 +64,7 @@ We will now dig in deeper in the subject, and focus on the interest of people to
 
 If we take the general theme of climate change (which is now strongly established in our modern society as a major ecological problem) and look at the number of Wikipedia searches related to this thematic, we should be able to depict people's interest towards ecology.
 
-![wikipedia_climate_change_nbr_view](assets/img/new_img/cummulative_views_climate_change.png){: .center}
+![cummulative_views_climate_change.png](assets/img/cummulative_views_climate_change.png){: .center}
 
 As we can see, maybe surprisingly, there is a steep fall in interest for climate change related topics during the time of the covid pandemic. This is contrary to the effect observed in the previous figure, which showed an increase in the total number of wikipedia page views. To better understand this apparent disinterest toward climate change, we will now deepen our analysis.
 
@@ -100,14 +97,13 @@ Though only observational, this is in agreement with the general public’s opin
 
 Indeed, the mean number of pageviews on the article ‘Climate change’ (or the one corresponding in the countries’ language) had the following evolution. The average is taken within the time specified as ‘Lockdown’ and ‘Normalcy’ in the provided data for the ‘before’ point, and on the same number of days before Lockdown. The time period were adapted for each country.
 
-![climate_pageviews_bi](assets/img/new_img/climate_pageviews_bi.png){: .center}
-
+--> only talk about the normalized plot
 
 Taken together, we can hypothesize that the country’s level of lockdown restrictiveness could have some impact on the interest level shift, indeed France was in the most restrictive countries (according to the impact factor) and it has the biggest shift, whereas Nordic countries such as Norway and Danemark which had lower impact factor have a more stable evolution in the page consultation average.
 
 But once taking into account the overal change in Wikipedia views for each country, and comparing the number of views to the impact factor, the interpretation we can make differs.
 
-![impact_time_home_climate_iterest](assets/img/new_img/impact_fact_vs_pageviews.png)
+![after_before_pageviews_climate.png](assets/img/after_before_pageviews_climate.png)
 
 Overall, the number of pageviews in the Climate Change article decreased during the Lockdown time, even when taking into account the relative change in overall pageviews. This is quite surprising when considering that the overall trend was an increased in searches! However this seems to be similar across countries, independantly of the lockdown strictness.
 
